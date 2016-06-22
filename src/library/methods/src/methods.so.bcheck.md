@@ -1,10 +1,10 @@
   
 __Function R_quick_dispatch__  
   [UP] protect stack is too deep, unprotecting all variables, results will be incomplete  
-  [UP] unsupported form of unprotect, unprotecting all variables, results will be incomplete [src/library/methods/src/methods_list_dispatch.c:322](https://github.com/wch/r-source/blob/bac895435ea855e91ae83e532539a13cc76c2419/src/library/methods/src/methods_list_dispatch.c/#L322)  
-  [UP] unsupported form of unprotect, unprotecting all variables, results will be incomplete [src/library/methods/src/methods_list_dispatch.c:335](https://github.com/wch/r-source/blob/bac895435ea855e91ae83e532539a13cc76c2419/src/library/methods/src/methods_list_dispatch.c/#L335)  
-  [UP] unsupported form of unprotect, unprotecting all variables, results will be incomplete [src/library/methods/src/methods_list_dispatch.c:344](https://github.com/wch/r-source/blob/bac895435ea855e91ae83e532539a13cc76c2419/src/library/methods/src/methods_list_dispatch.c/#L344)  
+  [UP] unsupported form of unprotect, unprotecting all variables, results will be incomplete [src/library/methods/src/methods_list_dispatch.c:322](https://github.com/wch/r-source/blob/5c98f228d6748a8e49ef684f98af2b034701719b/src/library/methods/src/methods_list_dispatch.c/#L322)  
+  [UP] unsupported form of unprotect, unprotecting all variables, results will be incomplete [src/library/methods/src/methods_list_dispatch.c:335](https://github.com/wch/r-source/blob/5c98f228d6748a8e49ef684f98af2b034701719b/src/library/methods/src/methods_list_dispatch.c/#L335)  
+  [UP] unsupported form of unprotect, unprotecting all variables, results will be incomplete [src/library/methods/src/methods_list_dispatch.c:344](https://github.com/wch/r-source/blob/5c98f228d6748a8e49ef684f98af2b034701719b/src/library/methods/src/methods_list_dispatch.c/#L344)  
   
 __Function R_quick_method_check__  
   [UP] protect stack is too deep, unprotecting all variables, results will be incomplete  
-  [UP] unsupported form of unprotect, unprotecting all variables, results will be incomplete [src/library/methods/src/methods_list_dispatch.c:254](https://github.com/wch/r-source/blob/bac895435ea855e91ae83e532539a13cc76c2419/src/library/methods/src/methods_list_dispatch.c/#L254)  
+  [UP] unsupported form of unprotect, unprotecting all variables, results will be incomplete [src/library/methods/src/methods_list_dispatch.c:254](https://github.com/wch/r-source/blob/5c98f228d6748a8e49ef684f98af2b034701719b/src/library/methods/src/methods_list_dispatch.c/#L254)  
