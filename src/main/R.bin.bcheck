@@ -21,7 +21,7 @@ Function NumericValue
 Function R_DispatchOrEvalSP
   [UP] unprotected variable prom while calling allocating function Rf_DispatchOrEval src/main/subassign.c:1440
 
-Function R_DispatchOrEvalSP5359
+Function R_DispatchOrEvalSP5363
   [UP] unprotected variable prom while calling allocating function Rf_DispatchOrEval src/main/subset.c:634
 
 Function R_FinalizeSrcRefState
@@ -162,7 +162,7 @@ Function SymbolValue
   [PB] has possible protection stack imbalance src/main/gram.c:4990
 
 Function applydefine
-  [UP] unprotected variable saverhs while calling allocating function Rf_endcontext src/main/eval.c:2066
+  [UP] unprotected variable saverhs while calling allocating function Rf_endcontext src/main/eval.c:2068
 
 Function bcEval
   [UP] ignoring variable sa as it has address taken, results will be incomplete 
@@ -179,23 +179,23 @@ Function bcEval
   [UP] ignoring variable sb205 as it has address taken, results will be incomplete 
   [UP] ignoring variable sb228 as it has address taken, results will be incomplete 
   [UP] ignoring variable sb250 as it has address taken, results will be incomplete 
-  [UP] unprotected variable __cell__ while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5425
-  [UP] unprotected variable __cell__100 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5433
-  [UP] unprotected variable __cell__107 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5457
-  [UP] unprotected variable __cell__112 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5467
-  [UP] unprotected variable __cell__115 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5473
-  [UP] unprotected variable __cell__118 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5475
-  [UP] unprotected variable __cell__121 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5476
-  [UP] unprotected variable __cell__124 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5477
-  [UP] unprotected variable __cell__397 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5628
-  [UP] unprotected variable __cell__418 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5630
-  [UP] unprotected variable __cell__426 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5632
-  [UP] unprotected variable __cell__442 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5633
-  [UP] unprotected variable __cell__462 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5635
-  [UP] unprotected variable __cell__485 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5637
-  [UP] unprotected variable __cell__493 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5639
-  [UP] unprotected variable __cell__579 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5808
-  [UP] unprotected variable __cell__583 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5837
+  [UP] unprotected variable __cell__ while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5427
+  [UP] unprotected variable __cell__100 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5435
+  [UP] unprotected variable __cell__107 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5459
+  [UP] unprotected variable __cell__112 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5469
+  [UP] unprotected variable __cell__115 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5475
+  [UP] unprotected variable __cell__118 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5477
+  [UP] unprotected variable __cell__121 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5478
+  [UP] unprotected variable __cell__124 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5479
+  [UP] unprotected variable __cell__397 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5630
+  [UP] unprotected variable __cell__418 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5632
+  [UP] unprotected variable __cell__426 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5634
+  [UP] unprotected variable __cell__442 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5635
+  [UP] unprotected variable __cell__462 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5637
+  [UP] unprotected variable __cell__485 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5639
+  [UP] unprotected variable __cell__493 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5641
+  [UP] unprotected variable __cell__579 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5810
+  [UP] unprotected variable __cell__583 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5839
 
 Function do_Math2
   [UP] ignoring variable res as it has address taken, results will be incomplete 
