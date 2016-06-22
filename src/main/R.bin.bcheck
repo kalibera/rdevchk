@@ -82,8 +82,8 @@ Function Rf_cons
   [UP] unprotected variable cdr while calling allocating function GetNewPage src/main/memory.c:2247
 
 Function Rf_initStack
-  [PB] manipulates PPStackTop directly results will be incomplete src/main/memory.c:3187
-  [UP] manipulates PPStackTop directly, results will be incomplete src/main/memory.c:3187
+  [PB] manipulates PPStackTop directly results will be incomplete src/main/memory.c:3161
+  [UP] manipulates PPStackTop directly, results will be incomplete src/main/memory.c:3161
 
 Function Rf_matchArgs
   [PB] has too high protection stack depth results will be incomplete
