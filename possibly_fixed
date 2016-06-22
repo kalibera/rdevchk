@@ -1,3 +1,24 @@
+Many changes between versions 70734 and 70798, the last one is:
+  ------------------------------------------------------------------------
+  r70798 | ripley | 2016-06-18 06:51:39 +0000 (Sat, 18 Jun 2016) | 1 line
+  
+  tweaks
+  ------------------------------------------------------------------------
+and the first one is:
+  ------------------------------------------------------------------------
+  r70734 | lawrence | 2016-06-08 17:47:28 +0000 (Wed, 08 Jun 2016) | 2 lines
+  
+  fix NEWS formatting/wording
+  
+  ------------------------------------------------------------------------
+
+Possibly fixed errors between versions 70734 and 70798:
+  src/main/radixsort.c:1895
+    WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at do_radixsort
+  src/main/radixsort.c:1902
+    WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at do_radixsort
+
+
 Many changes between versions 70405 and 70470, the last one is:
   ------------------------------------------------------------------------
   r70470 | maechler | 2016-04-12 17:41:39 +0000 (Tue, 12 Apr 2016) | 1 line
