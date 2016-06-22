@@ -1,3 +1,31 @@
+__Many changes between versions 68783 and 69241, the last one is:__  
+&nbsp;&nbsp;  ------------------------------------------------------------------------  
+&nbsp;&nbsp;  r69241 | pd | 2015-08-31 23:29:06 +0000 (Mon, 31 Aug 2015) | 1 line  
+&nbsp;&nbsp;    
+&nbsp;&nbsp;  maintainer-mode changes  
+&nbsp;&nbsp;  ------------------------------------------------------------------------  
+__and the first one is:__  
+&nbsp;&nbsp;  ------------------------------------------------------------------------  
+&nbsp;&nbsp;  r68783 | hornik | 2015-08-01 05:12:25 +0000 (Sat, 01 Aug 2015) | 1 line  
+&nbsp;&nbsp;    
+&nbsp;&nbsp;  Remove re-saved other data files at the end of re-saving.  
+&nbsp;&nbsp;  ------------------------------------------------------------------------  
+  
+__Possibly introduced errors between versions 68783 and 69241:__  
+&nbsp;&nbsp;  [src/main/util.c:273 (69241)](https://github.com/wch/r-source/blob/9fe55e21d6b4b953b066a8d4811d90651155a678/src/main/util.c/#L273)  
+&nbsp;&nbsp;&nbsp;&nbsp;    [UP] unprotected variable rchar while calling allocating function Rf_install  
+&nbsp;&nbsp;  [src/main/summary.c:879 (69241)](https://github.com/wch/r-source/blob/9fe55e21d6b4b953b066a8d4811d90651155a678/src/main/summary.c/#L879)  
+&nbsp;&nbsp;&nbsp;&nbsp;    [UP] unprotected variable v_nms while calling allocating function Rf_allocVector  
+&nbsp;&nbsp;  [src/main/grep.c:372 (69241)](https://github.com/wch/r-source/blob/9fe55e21d6b4b953b066a8d4811d90651155a678/src/main/grep.c/#L372)  
+&nbsp;&nbsp;&nbsp;&nbsp;    [UP] unprotected variable tok while calling allocating function Rf_mkCharCE  
+&nbsp;&nbsp;  [src/main/grep.c:374 (69241)](https://github.com/wch/r-source/blob/9fe55e21d6b4b953b066a8d4811d90651155a678/src/main/grep.c/#L374)  
+&nbsp;&nbsp;&nbsp;&nbsp;    [UP] unprotected variable tok while calling allocating function Rf_markKnown  
+&nbsp;&nbsp;  [src/main/grep.c:479 (69241)](https://github.com/wch/r-source/blob/9fe55e21d6b4b953b066a8d4811d90651155a678/src/main/grep.c/#L479)  
+&nbsp;&nbsp;&nbsp;&nbsp;    [UP] unprotected variable tok while calling allocating function Rf_mkCharCE  
+&nbsp;&nbsp;  [src/main/grep.c:481 (69241)](https://github.com/wch/r-source/blob/9fe55e21d6b4b953b066a8d4811d90651155a678/src/main/grep.c/#L481)  
+&nbsp;&nbsp;&nbsp;&nbsp;    [UP] unprotected variable tok while calling allocating function Rf_markKnown  
+  
+  
 __Many changes between versions 68486 and 68608, the last one is:__  
 &nbsp;&nbsp;  ------------------------------------------------------------------------  
 &nbsp;&nbsp;  r68608 | pd | 2015-06-30 23:32:35 +0000 (Tue, 30 Jun 2015) | 1 line  

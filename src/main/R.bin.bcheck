@@ -21,7 +21,7 @@ Function NumericValue
 Function R_DispatchOrEvalSP
   [UP] unprotected variable prom while calling allocating function Rf_DispatchOrEval src/main/subassign.c:1417
 
-Function R_DispatchOrEvalSP5342
+Function R_DispatchOrEvalSP5348
   [UP] unprotected variable prom while calling allocating function Rf_DispatchOrEval src/main/subset.c:634
 
 Function R_FinalizeSrcRefState
@@ -65,7 +65,7 @@ Function R_subset3_dflt
   [UP] unprotected variable x while calling allocating function Rf_translateChar src/main/subset.c:1285
 
 Function R_taskCallbackRoutine
-  [PB] has possible protection stack imbalance src/main/main.c:1544
+  [PB] has possible protection stack imbalance src/main/main.c:1550
 
 Function R_tryEval
   [PB] has negative depth src/main/context.c:788
@@ -322,7 +322,7 @@ Function do_seq_along
 
 Function do_sprintf
   [UP] protect stack is too deep, unprotecting all variables, results will be incomplete
-  [UP] unsupported form of unprotect, unprotecting all variables, results will be incomplete src/main/sprintf.c:453
+  [UP] unsupported form of unprotect, unprotecting all variables, results will be incomplete src/main/sprintf.c:454
 
 Function do_strsplit
   [UP] unprotected variable tok while calling allocating function Rf_allocVector src/main/grep.c:202

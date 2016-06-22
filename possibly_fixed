@@ -1,0 +1,28 @@
+Many changes between versions 68783 and 69241, the last one is:
+  ------------------------------------------------------------------------
+  r69241 | pd | 2015-08-31 23:29:06 +0000 (Mon, 31 Aug 2015) | 1 line
+  
+  maintainer-mode changes
+  ------------------------------------------------------------------------
+and the first one is:
+  ------------------------------------------------------------------------
+  r68783 | hornik | 2015-08-01 05:12:25 +0000 (Sat, 01 Aug 2015) | 1 line
+  
+  Remove re-saved other data files at the end of re-saving.
+  ------------------------------------------------------------------------
+
+Possibly fixed errors between versions 68783 and 69241:
+  src/main/util.c:273
+    [UP] unprotected variable rchar while calling allocating function Rf_install
+  src/main/summary.c:879
+    [UP] unprotected variable v_nms while calling allocating function Rf_allocVector
+  src/main/grep.c:372
+    [UP] unprotected variable tok while calling allocating function Rf_mkCharCE
+  src/main/grep.c:374
+    [UP] unprotected variable tok while calling allocating function Rf_markKnown
+  src/main/grep.c:479
+    [UP] unprotected variable tok while calling allocating function Rf_mkCharCE
+  src/main/grep.c:481
+    [UP] unprotected variable tok while calling allocating function Rf_markKnown
+
+
