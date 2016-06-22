@@ -194,8 +194,8 @@ Function bcEval
   [UP] unprotected variable __cell__466 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5764
   [UP] unprotected variable __cell__489 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5766
   [UP] unprotected variable __cell__497 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5768
-  [UP] unprotected variable __cell__583 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5937
-  [UP] unprotected variable __cell__587 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5966
+  [UP] unprotected variable __cell__583 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5934
+  [UP] unprotected variable __cell__587 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5963
 
 Function do_Math2
   [UP] ignoring variable res as it has address taken, results will be incomplete 
