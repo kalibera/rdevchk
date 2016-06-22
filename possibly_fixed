@@ -1,3 +1,82 @@
+Many changes between versions 69241 and 69444, the last one is:
+  ------------------------------------------------------------------------
+  r69444 | ripley | 2015-10-01 09:12:05 +0000 (Thu, 01 Oct 2015) | 1 line
+  
+  correct error message
+  ------------------------------------------------------------------------
+and the first one is:
+  ------------------------------------------------------------------------
+  r69241 | pd | 2015-08-31 23:29:06 +0000 (Mon, 31 Aug 2015) | 1 line
+  
+  maintainer-mode changes
+  ------------------------------------------------------------------------
+
+Possibly fixed errors between versions 69241 and 69444:
+  src/main/eval.c:1558
+    [UP] unprotected variable cell while calling allocating function Rf_defineVar
+  src/main/eval.c:1564
+    [UP] unprotected variable cell while calling allocating function Rf_defineVar
+  src/main/eval.c:1572
+    [UP] unprotected variable cell while calling allocating function Rf_allocVector
+  src/main/eval.c:1576
+    [UP] unprotected variable cell while calling allocating function Rf_allocVector
+  src/main/eval.c:1580
+    [UP] unprotected variable cell while calling allocating function Rf_allocVector
+  src/main/eval.c:1584
+    [UP] unprotected variable cell while calling allocating function Rf_allocVector
+  src/main/eval.c:1588
+    [UP] unprotected variable cell while calling allocating function Rf_allocVector
+  src/main/eval.c:1592
+    [UP] unprotected variable cell while calling allocating function Rf_allocVector
+  src/main/eval.c:1599
+    [UP] unprotected variable cell while calling allocating function Rf_defineVar
+    [UP] unprotected variable cell while calling allocating function Rf_defineVar(?,V,?)
+  src/main/eval.c:1602
+    [UP] unprotected variable cell while calling allocating function Rf_SrcrefPrompt
+  src/main/eval.c:1603
+    [UP] unprotected variable cell while calling allocating function Rf_PrintValue
+  src/main/eval.c:1604
+    [UP] unprotected variable cell while calling allocating function do_browser
+  src/main/eval.c:1606
+    [UP] unprotected variable cell while calling allocating function Rf_eval
+  src/main/eval.c:5453
+    [UP] unprotected variable h while calling allocating function Rf_eval
+  src/main/eval.c:5454
+    [UP] unprotected variable h while calling allocating function Rf_mkPROMISE
+  src/main/eval.c:5455
+    [UP] unprotected variable __cell__107 while calling allocating function GETSTACK_PTR_TAG
+    [UP] unprotected variable h while calling allocating function CONS_NR
+    [UP] unprotected variable h while calling allocating function GETSTACK_PTR_TAG
+  src/main/eval.c:5456
+    [UP] unprotected variable h while calling allocating function GETSTACK_PTR_TAG
+    [UP] unprotected variable h while calling allocating function Rf_CreateTag
+  src/main/main.c:1550
+    [PB] has possible protection stack imbalance
+  src/main/subset.c:1208
+    [UP] allocating function pstrmatch may destroy its unprotected argument (input <arg 2>), which is later used.
+    [UP] unprotected variable x while calling allocating function pstrmatch
+  src/main/subset.c:1230
+    [UP] unprotected variable input while calling allocating function Rf_translateChar
+    [UP] unprotected variable x while calling allocating function Rf_translateChar
+  src/main/subset.c:1233
+    [UP] unprotected variable x while calling allocating function Rf_warningcall
+  src/main/subset.c:1234
+    [UP] unprotected variable x while calling allocating function Rf_translateChar
+  src/main/subset.c:1247
+    [UP] unprotected variable input while calling allocating function Rf_xlength
+    [UP] unprotected variable x while calling allocating function Rf_xlength
+  src/main/subset.c:1250
+    [UP] allocating function pstrmatch may destroy its unprotected argument (input <arg 2>), which is later used.
+    [UP] unprotected variable x while calling allocating function pstrmatch
+  src/main/subset.c:1281
+    [UP] unprotected variable input while calling allocating function Rf_translateChar
+    [UP] unprotected variable x while calling allocating function Rf_translateChar
+  src/main/subset.c:1284
+    [UP] unprotected variable x while calling allocating function Rf_warningcall
+  src/main/subset.c:1285
+    [UP] unprotected variable x while calling allocating function Rf_translateChar
+
+
 Many changes between versions 68783 and 69241, the last one is:
   ------------------------------------------------------------------------
   r69241 | pd | 2015-08-31 23:29:06 +0000 (Mon, 31 Aug 2015) | 1 line

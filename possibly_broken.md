@@ -1,3 +1,21 @@
+__Many changes between versions 69241 and 69444, the last one is:__  
+&nbsp;&nbsp;  ------------------------------------------------------------------------  
+&nbsp;&nbsp;  r69444 | ripley | 2015-10-01 09:12:05 +0000 (Thu, 01 Oct 2015) | 1 line  
+&nbsp;&nbsp;    
+&nbsp;&nbsp;  correct error message  
+&nbsp;&nbsp;  ------------------------------------------------------------------------  
+__and the first one is:__  
+&nbsp;&nbsp;  ------------------------------------------------------------------------  
+&nbsp;&nbsp;  r69241 | pd | 2015-08-31 23:29:06 +0000 (Mon, 31 Aug 2015) | 1 line  
+&nbsp;&nbsp;    
+&nbsp;&nbsp;  maintainer-mode changes  
+&nbsp;&nbsp;  ------------------------------------------------------------------------  
+  
+__Possibly introduced errors between versions 69241 and 69444:__  
+&nbsp;&nbsp;  [src/main/eval.c:5456 (69444)](https://github.com/wch/r-source/blob/eeac7b453fff991ec36509b87397d5a94897417e/src/main/eval.c/#L5456)  
+&nbsp;&nbsp;&nbsp;&nbsp;    [UP] unprotected variable __cell__107 while calling allocating function GETSTACK_PTR_TAG  
+  
+  
 __Many changes between versions 68783 and 69241, the last one is:__  
 &nbsp;&nbsp;  ------------------------------------------------------------------------  
 &nbsp;&nbsp;  r69241 | pd | 2015-08-31 23:29:06 +0000 (Mon, 31 Aug 2015) | 1 line  

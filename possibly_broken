@@ -1,3 +1,21 @@
+Many changes between versions 69241 and 69444, the last one is:
+  ------------------------------------------------------------------------
+  r69444 | ripley | 2015-10-01 09:12:05 +0000 (Thu, 01 Oct 2015) | 1 line
+  
+  correct error message
+  ------------------------------------------------------------------------
+and the first one is:
+  ------------------------------------------------------------------------
+  r69241 | pd | 2015-08-31 23:29:06 +0000 (Mon, 31 Aug 2015) | 1 line
+  
+  maintainer-mode changes
+  ------------------------------------------------------------------------
+
+Possibly introduced errors between versions 69241 and 69444:
+  src/main/eval.c:5456
+    [UP] unprotected variable __cell__107 while calling allocating function GETSTACK_PTR_TAG
+
+
 Many changes between versions 68783 and 69241, the last one is:
   ------------------------------------------------------------------------
   r69241 | pd | 2015-08-31 23:29:06 +0000 (Mon, 31 Aug 2015) | 1 line
