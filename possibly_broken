@@ -1,3 +1,23 @@
+Changes between versions 69893 and 69894:
+  ------------------------------------------------------------------------
+  r69893 | ripley | 2016-01-09 09:52:07 +0000 (Sat, 09 Jan 2016) | 1 line
+  
+  use conistent capitalization for ASCII
+  ------------------------------------------------------------------------
+  r69894 | lawrence | 2016-01-09 14:09:58 +0000 (Sat, 09 Jan 2016) | 3 lines
+  
+  experimental new radix sort from Matt Dowle; currently undocumented
+  and unsupported; review pending
+  
+  ------------------------------------------------------------------------
+
+Possibly introduced errors between versions 69893 and 69894:
+  src/main/radixsort.c:1824
+    WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at do_radixsort2
+  src/main/radixsort.c:1827
+    WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at do_radixsort2
+
+
 Many changes between versions 69241 and 69444, the last one is:
   ------------------------------------------------------------------------
   r69444 | ripley | 2015-10-01 09:12:05 +0000 (Thu, 01 Oct 2015) | 1 line
