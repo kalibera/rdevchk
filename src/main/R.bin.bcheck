@@ -1,7 +1,7 @@
 
 Function CONS_NR
-  [UP] unprotected variable car while calling allocating function GetNewPage src/main/memory.c:2269
-  [UP] unprotected variable cdr while calling allocating function GetNewPage src/main/memory.c:2269
+  [UP] unprotected variable car while calling allocating function GetNewPage src/main/memory.c:2270
+  [UP] unprotected variable cdr while calling allocating function GetNewPage src/main/memory.c:2270
 
 Function DeleteListElements
   [UP] unprotected variable xnames while calling allocating function Rf_allocVector src/main/subassign.c:462
@@ -62,28 +62,28 @@ Function Rf_DispatchGroup
   [UP] ignoring variable rsxp as it has address taken, results will be incomplete 
 
 Function Rf_InitMemory
-  [PB] manipulates PPStackTop directly results will be incomplete src/main/memory.c:2012
-  [UP] manipulates PPStackTop directly, results will be incomplete src/main/memory.c:2012
+  [PB] manipulates PPStackTop directly results will be incomplete src/main/memory.c:2013
+  [UP] manipulates PPStackTop directly, results will be incomplete src/main/memory.c:2013
 
 Function Rf_InitTypeTables
   [UP] unprotected variable rchar while calling allocating function Rf_install src/main/util.c:273
 
 Function Rf_NewEnvironment
-  [UP] unprotected variable namelist while calling allocating function GetNewPage src/main/memory.c:2312
-  [UP] unprotected variable rho while calling allocating function GetNewPage src/main/memory.c:2312
-  [UP] unprotected variable valuelist while calling allocating function GetNewPage src/main/memory.c:2312
+  [UP] unprotected variable namelist while calling allocating function GetNewPage src/main/memory.c:2313
+  [UP] unprotected variable rho while calling allocating function GetNewPage src/main/memory.c:2313
+  [UP] unprotected variable valuelist while calling allocating function GetNewPage src/main/memory.c:2313
 
 Function Rf_ReplIteration
   [PB] manipulates PPStackTop directly results will be incomplete src/main/main.c:223
   [UP] manipulates PPStackTop directly, results will be incomplete src/main/main.c:223
 
 Function Rf_cons
-  [UP] unprotected variable car while calling allocating function GetNewPage src/main/memory.c:2247
-  [UP] unprotected variable cdr while calling allocating function GetNewPage src/main/memory.c:2247
+  [UP] unprotected variable car while calling allocating function GetNewPage src/main/memory.c:2248
+  [UP] unprotected variable cdr while calling allocating function GetNewPage src/main/memory.c:2248
 
 Function Rf_initStack
-  [PB] manipulates PPStackTop directly results will be incomplete src/main/memory.c:3161
-  [UP] manipulates PPStackTop directly, results will be incomplete src/main/memory.c:3161
+  [PB] manipulates PPStackTop directly results will be incomplete src/main/memory.c:3162
+  [UP] manipulates PPStackTop directly, results will be incomplete src/main/memory.c:3162
 
 Function Rf_matchArgs
   [PB] has too high protection stack depth results will be incomplete
@@ -91,8 +91,8 @@ Function Rf_matchArgs
   [PB] has possible protection stack imbalance src/main/match.c:388
 
 Function Rf_mkPROMISE
-  [UP] unprotected variable expr while calling allocating function GetNewPage src/main/memory.c:2344
-  [UP] unprotected variable rho while calling allocating function GetNewPage src/main/memory.c:2344
+  [UP] unprotected variable expr while calling allocating function GetNewPage src/main/memory.c:2345
+  [UP] unprotected variable rho while calling allocating function GetNewPage src/main/memory.c:2345
 
 Function Rf_vectorIndex
   [UP] allocating function Rf_xlength may destroy its unprotected argument (x <arg 1>), which is later used. src/main/subscript.c:312
@@ -179,23 +179,23 @@ Function bcEval
   [UP] ignoring variable sb205 as it has address taken, results will be incomplete 
   [UP] ignoring variable sb228 as it has address taken, results will be incomplete 
   [UP] ignoring variable sb250 as it has address taken, results will be incomplete 
-  [UP] unprotected variable __cell__ while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5546
-  [UP] unprotected variable __cell__100 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5554
-  [UP] unprotected variable __cell__107 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5578
-  [UP] unprotected variable __cell__112 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5588
-  [UP] unprotected variable __cell__115 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5594
-  [UP] unprotected variable __cell__118 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5596
-  [UP] unprotected variable __cell__121 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5597
-  [UP] unprotected variable __cell__124 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5598
-  [UP] unprotected variable __cell__401 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5757
-  [UP] unprotected variable __cell__422 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5759
-  [UP] unprotected variable __cell__430 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5761
-  [UP] unprotected variable __cell__446 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5762
-  [UP] unprotected variable __cell__466 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5764
-  [UP] unprotected variable __cell__489 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5766
-  [UP] unprotected variable __cell__497 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5768
-  [UP] unprotected variable __cell__583 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5934
-  [UP] unprotected variable __cell__587 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5963
+  [UP] unprotected variable __cell__ while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5554
+  [UP] unprotected variable __cell__100 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5562
+  [UP] unprotected variable __cell__107 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5586
+  [UP] unprotected variable __cell__112 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5596
+  [UP] unprotected variable __cell__115 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5602
+  [UP] unprotected variable __cell__118 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5604
+  [UP] unprotected variable __cell__121 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5605
+  [UP] unprotected variable __cell__124 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5606
+  [UP] unprotected variable __cell__401 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5765
+  [UP] unprotected variable __cell__422 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5767
+  [UP] unprotected variable __cell__430 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5769
+  [UP] unprotected variable __cell__446 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5770
+  [UP] unprotected variable __cell__466 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5772
+  [UP] unprotected variable __cell__489 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5774
+  [UP] unprotected variable __cell__497 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5776
+  [UP] unprotected variable __cell__583 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5942
+  [UP] unprotected variable __cell__587 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5971
 
 Function do_Math2
   [UP] ignoring variable res as it has address taken, results will be incomplete 
