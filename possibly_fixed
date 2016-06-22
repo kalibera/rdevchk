@@ -1,3 +1,42 @@
+Many changes between versions 69895 and 70052, the last one is:
+  ------------------------------------------------------------------------
+  r70052 | maechler | 2016-01-30 16:46:26 +0000 (Sat, 30 Jan 2016) | 1 line
+  
+  rhyper() works for more large parameters
+  ------------------------------------------------------------------------
+and the first one is:
+  ------------------------------------------------------------------------
+  r69895 | maechler | 2016-01-09 17:40:22 +0000 (Sat, 09 Jan 2016) | 2 lines
+  
+  "Links" to "real" change logs
+  
+  ------------------------------------------------------------------------
+
+Possibly fixed errors between versions 69895 and 70052:
+  src/main/eval.c:5688
+    [UP] unprotected variable __cell__397 while calling allocating function GETSTACK_PTR_TAG
+  src/main/eval.c:5690
+    [UP] unprotected variable __cell__418 while calling allocating function GETSTACK_PTR_TAG
+  src/main/eval.c:5692
+    [UP] unprotected variable __cell__426 while calling allocating function GETSTACK_PTR_TAG
+  src/main/eval.c:5693
+    [UP] unprotected variable __cell__442 while calling allocating function GETSTACK_PTR_TAG
+  src/main/eval.c:5695
+    [UP] unprotected variable __cell__462 while calling allocating function GETSTACK_PTR_TAG
+  src/main/eval.c:5697
+    [UP] unprotected variable __cell__485 while calling allocating function GETSTACK_PTR_TAG
+  src/main/eval.c:5699
+    [UP] unprotected variable __cell__493 while calling allocating function GETSTACK_PTR_TAG
+  src/main/eval.c:5868
+    [UP] unprotected variable __cell__579 while calling allocating function GETSTACK_PTR_TAG
+  src/main/eval.c:5897
+    [UP] unprotected variable __cell__583 while calling allocating function GETSTACK_PTR_TAG
+  src/main/radixsort.c:1824
+    WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at do_radixsort2
+  src/main/radixsort.c:1827
+    WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at do_radixsort2
+
+
 Many changes between versions 69241 and 69444, the last one is:
   ------------------------------------------------------------------------
   r69444 | ripley | 2015-10-01 09:12:05 +0000 (Thu, 01 Oct 2015) | 1 line

@@ -1,3 +1,44 @@
+Many changes between versions 69895 and 70052, the last one is:
+  ------------------------------------------------------------------------
+  r70052 | maechler | 2016-01-30 16:46:26 +0000 (Sat, 30 Jan 2016) | 1 line
+  
+  rhyper() works for more large parameters
+  ------------------------------------------------------------------------
+and the first one is:
+  ------------------------------------------------------------------------
+  r69895 | maechler | 2016-01-09 17:40:22 +0000 (Sat, 09 Jan 2016) | 2 lines
+  
+  "Links" to "real" change logs
+  
+  ------------------------------------------------------------------------
+
+Possibly introduced errors between versions 69895 and 70052:
+  src/main/eval.c:5751
+    [UP] unprotected variable __cell__401 while calling allocating function GETSTACK_PTR_TAG
+  src/main/eval.c:5753
+    [UP] unprotected variable __cell__422 while calling allocating function GETSTACK_PTR_TAG
+  src/main/eval.c:5755
+    [UP] unprotected variable __cell__430 while calling allocating function GETSTACK_PTR_TAG
+  src/main/eval.c:5756
+    [UP] unprotected variable __cell__446 while calling allocating function GETSTACK_PTR_TAG
+  src/main/eval.c:5758
+    [UP] unprotected variable __cell__466 while calling allocating function GETSTACK_PTR_TAG
+  src/main/eval.c:5760
+    [UP] unprotected variable __cell__489 while calling allocating function GETSTACK_PTR_TAG
+  src/main/eval.c:5762
+    [UP] unprotected variable __cell__497 while calling allocating function GETSTACK_PTR_TAG
+  src/main/eval.c:5931
+    [UP] unprotected variable __cell__583 while calling allocating function GETSTACK_PTR_TAG
+  src/main/eval.c:5960
+    [UP] unprotected variable __cell__587 while calling allocating function GETSTACK_PTR_TAG
+  src/main/subassign.c:1996
+    [UP] unprotected variable nlist while calling allocating function R_DispatchOrEvalSP
+  src/main/radixsort.c:1888
+    WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at do_radixsort
+  src/main/radixsort.c:1895
+    WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at do_radixsort
+
+
 Changes between versions 69893 and 69894:
   ------------------------------------------------------------------------
   r69893 | ripley | 2016-01-09 09:52:07 +0000 (Sat, 09 Jan 2016) | 1 line

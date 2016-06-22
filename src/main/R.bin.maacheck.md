@@ -1,2 +1,2 @@
-WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at do_radixsort2 [src/main/radixsort.c:1824](https://github.com/wch/r-source/blob/af54f131a347544569d9803996a7e87d76549978/src/main/radixsort.c/#L1824)  
-WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at do_radixsort2 [src/main/radixsort.c:1827](https://github.com/wch/r-source/blob/af54f131a347544569d9803996a7e87d76549978/src/main/radixsort.c/#L1827)  
+WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at do_radixsort [src/main/radixsort.c:1888](https://github.com/wch/r-source/blob/157e929e9a4534a6f273ae4a496c080a2088ca39/src/main/radixsort.c/#L1888)  
+WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at do_radixsort [src/main/radixsort.c:1895](https://github.com/wch/r-source/blob/157e929e9a4534a6f273ae4a496c080a2088ca39/src/main/radixsort.c/#L1895)  

@@ -1,3 +1,42 @@
+__Many changes between versions 69895 and 70052, the last one is:__  
+&nbsp;&nbsp;  ------------------------------------------------------------------------  
+&nbsp;&nbsp;  r70052 | maechler | 2016-01-30 16:46:26 +0000 (Sat, 30 Jan 2016) | 1 line  
+&nbsp;&nbsp;    
+&nbsp;&nbsp;  rhyper() works for more large parameters  
+&nbsp;&nbsp;  ------------------------------------------------------------------------  
+__and the first one is:__  
+&nbsp;&nbsp;  ------------------------------------------------------------------------  
+&nbsp;&nbsp;  r69895 | maechler | 2016-01-09 17:40:22 +0000 (Sat, 09 Jan 2016) | 2 lines  
+&nbsp;&nbsp;    
+&nbsp;&nbsp;  "Links" to "real" change logs  
+&nbsp;&nbsp;    
+&nbsp;&nbsp;  ------------------------------------------------------------------------  
+  
+__Possibly fixed errors between versions 69895 and 70052:__  
+&nbsp;&nbsp;  [src/main/eval.c:5688 (69895)](https://github.com/wch/r-source/blob/af54f131a347544569d9803996a7e87d76549978/src/main/eval.c/#L5688)  
+&nbsp;&nbsp;&nbsp;&nbsp;    [UP] unprotected variable __cell__397 while calling allocating function GETSTACK_PTR_TAG  
+&nbsp;&nbsp;  [src/main/eval.c:5690 (69895)](https://github.com/wch/r-source/blob/af54f131a347544569d9803996a7e87d76549978/src/main/eval.c/#L5690)  
+&nbsp;&nbsp;&nbsp;&nbsp;    [UP] unprotected variable __cell__418 while calling allocating function GETSTACK_PTR_TAG  
+&nbsp;&nbsp;  [src/main/eval.c:5692 (69895)](https://github.com/wch/r-source/blob/af54f131a347544569d9803996a7e87d76549978/src/main/eval.c/#L5692)  
+&nbsp;&nbsp;&nbsp;&nbsp;    [UP] unprotected variable __cell__426 while calling allocating function GETSTACK_PTR_TAG  
+&nbsp;&nbsp;  [src/main/eval.c:5693 (69895)](https://github.com/wch/r-source/blob/af54f131a347544569d9803996a7e87d76549978/src/main/eval.c/#L5693)  
+&nbsp;&nbsp;&nbsp;&nbsp;    [UP] unprotected variable __cell__442 while calling allocating function GETSTACK_PTR_TAG  
+&nbsp;&nbsp;  [src/main/eval.c:5695 (69895)](https://github.com/wch/r-source/blob/af54f131a347544569d9803996a7e87d76549978/src/main/eval.c/#L5695)  
+&nbsp;&nbsp;&nbsp;&nbsp;    [UP] unprotected variable __cell__462 while calling allocating function GETSTACK_PTR_TAG  
+&nbsp;&nbsp;  [src/main/eval.c:5697 (69895)](https://github.com/wch/r-source/blob/af54f131a347544569d9803996a7e87d76549978/src/main/eval.c/#L5697)  
+&nbsp;&nbsp;&nbsp;&nbsp;    [UP] unprotected variable __cell__485 while calling allocating function GETSTACK_PTR_TAG  
+&nbsp;&nbsp;  [src/main/eval.c:5699 (69895)](https://github.com/wch/r-source/blob/af54f131a347544569d9803996a7e87d76549978/src/main/eval.c/#L5699)  
+&nbsp;&nbsp;&nbsp;&nbsp;    [UP] unprotected variable __cell__493 while calling allocating function GETSTACK_PTR_TAG  
+&nbsp;&nbsp;  [src/main/eval.c:5868 (69895)](https://github.com/wch/r-source/blob/af54f131a347544569d9803996a7e87d76549978/src/main/eval.c/#L5868)  
+&nbsp;&nbsp;&nbsp;&nbsp;    [UP] unprotected variable __cell__579 while calling allocating function GETSTACK_PTR_TAG  
+&nbsp;&nbsp;  [src/main/eval.c:5897 (69895)](https://github.com/wch/r-source/blob/af54f131a347544569d9803996a7e87d76549978/src/main/eval.c/#L5897)  
+&nbsp;&nbsp;&nbsp;&nbsp;    [UP] unprotected variable __cell__583 while calling allocating function GETSTACK_PTR_TAG  
+&nbsp;&nbsp;  [src/main/radixsort.c:1824 (69895)](https://github.com/wch/r-source/blob/af54f131a347544569d9803996a7e87d76549978/src/main/radixsort.c/#L1824)  
+&nbsp;&nbsp;&nbsp;&nbsp;    WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at do_radixsort2  
+&nbsp;&nbsp;  [src/main/radixsort.c:1827 (69895)](https://github.com/wch/r-source/blob/af54f131a347544569d9803996a7e87d76549978/src/main/radixsort.c/#L1827)  
+&nbsp;&nbsp;&nbsp;&nbsp;    WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at do_radixsort2  
+  
+  
 __Many changes between versions 69241 and 69444, the last one is:__  
 &nbsp;&nbsp;  ------------------------------------------------------------------------  
 &nbsp;&nbsp;  r69444 | ripley | 2015-10-01 09:12:05 +0000 (Thu, 01 Oct 2015) | 1 line  

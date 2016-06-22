@@ -1,3 +1,44 @@
+__Many changes between versions 69895 and 70052, the last one is:__  
+&nbsp;&nbsp;  ------------------------------------------------------------------------  
+&nbsp;&nbsp;  r70052 | maechler | 2016-01-30 16:46:26 +0000 (Sat, 30 Jan 2016) | 1 line  
+&nbsp;&nbsp;    
+&nbsp;&nbsp;  rhyper() works for more large parameters  
+&nbsp;&nbsp;  ------------------------------------------------------------------------  
+__and the first one is:__  
+&nbsp;&nbsp;  ------------------------------------------------------------------------  
+&nbsp;&nbsp;  r69895 | maechler | 2016-01-09 17:40:22 +0000 (Sat, 09 Jan 2016) | 2 lines  
+&nbsp;&nbsp;    
+&nbsp;&nbsp;  "Links" to "real" change logs  
+&nbsp;&nbsp;    
+&nbsp;&nbsp;  ------------------------------------------------------------------------  
+  
+__Possibly introduced errors between versions 69895 and 70052:__  
+&nbsp;&nbsp;  [src/main/eval.c:5751 (70052)](https://github.com/wch/r-source/blob/157e929e9a4534a6f273ae4a496c080a2088ca39/src/main/eval.c/#L5751)  
+&nbsp;&nbsp;&nbsp;&nbsp;    [UP] unprotected variable __cell__401 while calling allocating function GETSTACK_PTR_TAG  
+&nbsp;&nbsp;  [src/main/eval.c:5753 (70052)](https://github.com/wch/r-source/blob/157e929e9a4534a6f273ae4a496c080a2088ca39/src/main/eval.c/#L5753)  
+&nbsp;&nbsp;&nbsp;&nbsp;    [UP] unprotected variable __cell__422 while calling allocating function GETSTACK_PTR_TAG  
+&nbsp;&nbsp;  [src/main/eval.c:5755 (70052)](https://github.com/wch/r-source/blob/157e929e9a4534a6f273ae4a496c080a2088ca39/src/main/eval.c/#L5755)  
+&nbsp;&nbsp;&nbsp;&nbsp;    [UP] unprotected variable __cell__430 while calling allocating function GETSTACK_PTR_TAG  
+&nbsp;&nbsp;  [src/main/eval.c:5756 (70052)](https://github.com/wch/r-source/blob/157e929e9a4534a6f273ae4a496c080a2088ca39/src/main/eval.c/#L5756)  
+&nbsp;&nbsp;&nbsp;&nbsp;    [UP] unprotected variable __cell__446 while calling allocating function GETSTACK_PTR_TAG  
+&nbsp;&nbsp;  [src/main/eval.c:5758 (70052)](https://github.com/wch/r-source/blob/157e929e9a4534a6f273ae4a496c080a2088ca39/src/main/eval.c/#L5758)  
+&nbsp;&nbsp;&nbsp;&nbsp;    [UP] unprotected variable __cell__466 while calling allocating function GETSTACK_PTR_TAG  
+&nbsp;&nbsp;  [src/main/eval.c:5760 (70052)](https://github.com/wch/r-source/blob/157e929e9a4534a6f273ae4a496c080a2088ca39/src/main/eval.c/#L5760)  
+&nbsp;&nbsp;&nbsp;&nbsp;    [UP] unprotected variable __cell__489 while calling allocating function GETSTACK_PTR_TAG  
+&nbsp;&nbsp;  [src/main/eval.c:5762 (70052)](https://github.com/wch/r-source/blob/157e929e9a4534a6f273ae4a496c080a2088ca39/src/main/eval.c/#L5762)  
+&nbsp;&nbsp;&nbsp;&nbsp;    [UP] unprotected variable __cell__497 while calling allocating function GETSTACK_PTR_TAG  
+&nbsp;&nbsp;  [src/main/eval.c:5931 (70052)](https://github.com/wch/r-source/blob/157e929e9a4534a6f273ae4a496c080a2088ca39/src/main/eval.c/#L5931)  
+&nbsp;&nbsp;&nbsp;&nbsp;    [UP] unprotected variable __cell__583 while calling allocating function GETSTACK_PTR_TAG  
+&nbsp;&nbsp;  [src/main/eval.c:5960 (70052)](https://github.com/wch/r-source/blob/157e929e9a4534a6f273ae4a496c080a2088ca39/src/main/eval.c/#L5960)  
+&nbsp;&nbsp;&nbsp;&nbsp;    [UP] unprotected variable __cell__587 while calling allocating function GETSTACK_PTR_TAG  
+&nbsp;&nbsp;  [src/main/subassign.c:1996 (70052)](https://github.com/wch/r-source/blob/157e929e9a4534a6f273ae4a496c080a2088ca39/src/main/subassign.c/#L1996)  
+&nbsp;&nbsp;&nbsp;&nbsp;    [UP] unprotected variable nlist while calling allocating function R_DispatchOrEvalSP  
+&nbsp;&nbsp;  [src/main/radixsort.c:1888 (70052)](https://github.com/wch/r-source/blob/157e929e9a4534a6f273ae4a496c080a2088ca39/src/main/radixsort.c/#L1888)  
+&nbsp;&nbsp;&nbsp;&nbsp;    WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at do_radixsort  
+&nbsp;&nbsp;  [src/main/radixsort.c:1895 (70052)](https://github.com/wch/r-source/blob/157e929e9a4534a6f273ae4a496c080a2088ca39/src/main/radixsort.c/#L1895)  
+&nbsp;&nbsp;&nbsp;&nbsp;    WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at do_radixsort  
+  
+  
 __Changes between versions 69893 and 69894:__  
 &nbsp;&nbsp;  ------------------------------------------------------------------------  
 &nbsp;&nbsp;  r69893 | ripley | 2016-01-09 09:52:07 +0000 (Sat, 09 Jan 2016) | 1 line  

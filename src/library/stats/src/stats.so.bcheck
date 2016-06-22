@@ -1,8 +1,8 @@
 
 Function Cdist
-  [UP] unprotected variable names while calling allocating function Rf_install src/library/stats/src/distance.c:288
-  [UP] unprotected variable names while calling allocating function Rf_setAttrib(V,?,?) src/library/stats/src/distance.c:288
-  [UP] unprotected variable names while calling allocating function Rf_translateChar src/library/stats/src/distance.c:288
+  [UP] unprotected variable names while calling allocating function Rf_install src/library/stats/src/distance.c:287
+  [UP] unprotected variable names while calling allocating function Rf_setAttrib(V,?,?) src/library/stats/src/distance.c:287
+  [UP] unprotected variable names while calling allocating function Rf_translateChar src/library/stats/src/distance.c:287
 
 Function CreateGrad
   [UP] unprotected variable q while calling allocating function Rf_ScalarString src/library/stats/src/deriv.c:807
@@ -91,10 +91,10 @@ Function fcn
   [UP] unsupported form of unprotect, unprotecting all variables, results will be incomplete src/library/stats/src/optimize.c:551
 
 Function nls_iter
-  [UP] unprotected variable tmp while calling allocating function Rf_lang1 src/library/stats/src/nls.c:167
-  [UP] unprotected variable tmp while calling allocating function Rf_lang1 src/library/stats/src/nls.c:172
-  [UP] unprotected variable tmp while calling allocating function Rf_lang1 src/library/stats/src/nls.c:177
-  [UP] unprotected variable tmp while calling allocating function Rf_lang1 src/library/stats/src/nls.c:182
+  [UP] unprotected variable tmp while calling allocating function Rf_lang1 src/library/stats/src/nls.c:169
+  [UP] unprotected variable tmp while calling allocating function Rf_lang1 src/library/stats/src/nls.c:174
+  [UP] unprotected variable tmp while calling allocating function Rf_lang1 src/library/stats/src/nls.c:179
+  [UP] unprotected variable tmp while calling allocating function Rf_lang1 src/library/stats/src/nls.c:184
 
 Function optimhess
   [UP] unprotected variable nm while calling allocating function Rf_allocVector src/library/stats/src/optim.c:451
