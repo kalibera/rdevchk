@@ -1,3 +1,24 @@
+Many changes between versions 70252 and 70405, the last one is:
+  ------------------------------------------------------------------------
+  r70405 | lawrence | 2016-03-31 22:43:51 +0000 (Thu, 31 Mar 2016) | 4 lines
+  
+  add signature argument to debug() and friends for debugging methods;
+  add utils::debugcall() for debugging a function/method that would be
+  dispatched by evaluating the call.
+  
+  ------------------------------------------------------------------------
+and the first one is:
+  ------------------------------------------------------------------------
+  r70252 | ripley | 2016-03-01 08:20:31 +0000 (Tue, 01 Mar 2016) | 1 line
+  
+  uncomment references to omegahat.net
+  ------------------------------------------------------------------------
+
+Possibly fixed errors between versions 70252 and 70405:
+  src/library/stats/src/model.c:1423
+    [UP] allocating function TrimRepeats may destroy its unprotected argument (term), which is later used.
+
+
 Many changes between versions 69895 and 70052, the last one is:
   ------------------------------------------------------------------------
   r70052 | maechler | 2016-01-30 16:46:26 +0000 (Sat, 30 Jan 2016) | 1 line

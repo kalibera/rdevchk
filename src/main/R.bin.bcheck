@@ -1,7 +1,7 @@
 
 Function CONS_NR
-  [UP] unprotected variable car while calling allocating function GetNewPage src/main/memory.c:2267
-  [UP] unprotected variable cdr while calling allocating function GetNewPage src/main/memory.c:2267
+  [UP] unprotected variable car while calling allocating function GetNewPage src/main/memory.c:2269
+  [UP] unprotected variable cdr while calling allocating function GetNewPage src/main/memory.c:2269
 
 Function DeleteListElements
   [UP] unprotected variable xnames while calling allocating function Rf_allocVector src/main/subassign.c:462
@@ -21,7 +21,7 @@ Function NumericValue
 Function R_DispatchOrEvalSP
   [UP] unprotected variable prom while calling allocating function Rf_DispatchOrEval src/main/subassign.c:1463
 
-Function R_DispatchOrEvalSP5419
+Function R_DispatchOrEvalSP5429
   [UP] unprotected variable prom while calling allocating function Rf_DispatchOrEval src/main/subset.c:636
 
 Function R_FinalizeSrcRefState
@@ -32,12 +32,12 @@ Function R_InitSrcRefState
   [PB] has possible protection stack imbalance src/main/gram.c:3534
 
 Function R_ReplDLLdo1
-  [PB] manipulates PPStackTop directly results will be incomplete src/main/main.c:350
-  [UP] manipulates PPStackTop directly, results will be incomplete src/main/main.c:350
+  [PB] manipulates PPStackTop directly results will be incomplete src/main/main.c:374
+  [UP] manipulates PPStackTop directly, results will be incomplete src/main/main.c:374
 
 Function R_restore_globals
-  [PB] restores PPStackTop from uninitialized local variable src/main/context.c:170
-  [UP] manipulates PPStackTop directly, results will be incomplete src/main/context.c:170
+  [PB] restores PPStackTop from uninitialized local variable src/main/context.c:167
+  [UP] manipulates PPStackTop directly, results will be incomplete src/main/context.c:167
 
 Function R_subassign3_dflt
   [UP] unprotected variable names while calling allocating function Rf_xlength src/main/subassign.c:2099
@@ -49,9 +49,9 @@ Function R_subassign3_dflt
   [UP] unprotected variable names while calling allocating function Rf_allocVector src/main/subassign.c:2155
 
 Function R_tryEval
-  [PB] has negative depth src/main/context.c:762
-  [UP] attempt to unprotect more items (1) than protected (0), results will be incomplete src/main/context.c:762
-  [PB] has possible protection stack imbalance src/main/context.c:764
+  [PB] has negative depth src/main/context.c:782
+  [UP] attempt to unprotect more items (1) than protected (0), results will be incomplete src/main/context.c:782
+  [PB] has possible protection stack imbalance src/main/context.c:784
 
 Function Rf_DispatchGroup
   [UP] ignoring variable lgr as it has address taken, results will be incomplete 
@@ -62,28 +62,28 @@ Function Rf_DispatchGroup
   [UP] ignoring variable rsxp as it has address taken, results will be incomplete 
 
 Function Rf_InitMemory
-  [PB] manipulates PPStackTop directly results will be incomplete src/main/memory.c:2010
-  [UP] manipulates PPStackTop directly, results will be incomplete src/main/memory.c:2010
+  [PB] manipulates PPStackTop directly results will be incomplete src/main/memory.c:2012
+  [UP] manipulates PPStackTop directly, results will be incomplete src/main/memory.c:2012
 
 Function Rf_InitTypeTables
   [UP] unprotected variable rchar while calling allocating function Rf_install src/main/util.c:273
 
 Function Rf_NewEnvironment
-  [UP] unprotected variable namelist while calling allocating function GetNewPage src/main/memory.c:2310
-  [UP] unprotected variable rho while calling allocating function GetNewPage src/main/memory.c:2310
-  [UP] unprotected variable valuelist while calling allocating function GetNewPage src/main/memory.c:2310
+  [UP] unprotected variable namelist while calling allocating function GetNewPage src/main/memory.c:2312
+  [UP] unprotected variable rho while calling allocating function GetNewPage src/main/memory.c:2312
+  [UP] unprotected variable valuelist while calling allocating function GetNewPage src/main/memory.c:2312
 
 Function Rf_ReplIteration
   [PB] manipulates PPStackTop directly results will be incomplete src/main/main.c:223
   [UP] manipulates PPStackTop directly, results will be incomplete src/main/main.c:223
 
 Function Rf_cons
-  [UP] unprotected variable car while calling allocating function GetNewPage src/main/memory.c:2245
-  [UP] unprotected variable cdr while calling allocating function GetNewPage src/main/memory.c:2245
+  [UP] unprotected variable car while calling allocating function GetNewPage src/main/memory.c:2247
+  [UP] unprotected variable cdr while calling allocating function GetNewPage src/main/memory.c:2247
 
 Function Rf_initStack
-  [PB] manipulates PPStackTop directly results will be incomplete src/main/memory.c:3185
-  [UP] manipulates PPStackTop directly, results will be incomplete src/main/memory.c:3185
+  [PB] manipulates PPStackTop directly results will be incomplete src/main/memory.c:3187
+  [UP] manipulates PPStackTop directly, results will be incomplete src/main/memory.c:3187
 
 Function Rf_matchArgs
   [PB] has too high protection stack depth results will be incomplete
@@ -91,8 +91,8 @@ Function Rf_matchArgs
   [PB] has possible protection stack imbalance src/main/match.c:388
 
 Function Rf_mkPROMISE
-  [UP] unprotected variable expr while calling allocating function GetNewPage src/main/memory.c:2342
-  [UP] unprotected variable rho while calling allocating function GetNewPage src/main/memory.c:2342
+  [UP] unprotected variable expr while calling allocating function GetNewPage src/main/memory.c:2344
+  [UP] unprotected variable rho while calling allocating function GetNewPage src/main/memory.c:2344
 
 Function Rf_vectorIndex
   [UP] allocating function Rf_xlength may destroy its unprotected argument (x <arg 1>), which is later used. src/main/subscript.c:312
@@ -376,7 +376,7 @@ Function do_xtfrm
   [UP] ignoring variable ans as it has address taken, results will be incomplete 
 
 Function protectedEval
-  [PB] has possible protection stack imbalance src/main/context.c:743
+  [PB] has possible protection stack imbalance src/main/context.c:763
 
 Function setParseFilename
   [PB] has negative depth src/main/gram.c:5012

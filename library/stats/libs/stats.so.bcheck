@@ -70,15 +70,12 @@ Function D
 Function EncodeVars
   [PB] has too high protection stack depth results will be incomplete
   [UP] protect stack is too deep, unprotecting all variables, results will be incomplete
-  [PB] has negative depth src/library/stats/src/model.c:1540
-  [UP] attempt to unprotect more items (1) than protected (0), results will be incomplete src/library/stats/src/model.c:1540
-  [PB] has possible protection stack imbalance src/library/stats/src/model.c:1595
+  [PB] has negative depth src/library/stats/src/model.c:1541
+  [UP] attempt to unprotect more items (1) than protected (0), results will be incomplete src/library/stats/src/model.c:1541
+  [PB] has possible protection stack imbalance src/library/stats/src/model.c:1596
 
 Function PP
   [PB] has possible protection stack imbalance src/library/stats/src/deriv.c:138
-
-Function PowerTerms
-  [UP] allocating function TrimRepeats may destroy its unprotected argument (term), which is later used. src/library/stats/src/model.c:1423
 
 Function deriv
   [UP] unprotected variable ans while calling allocating function Accumulate2 src/library/stats/src/deriv.c:1016
@@ -116,13 +113,13 @@ Function simplify
   [PB] has possible protection stack imbalance src/library/stats/src/deriv.c:273
 
 Function termsform
-  [UP] unprotected variable a while calling allocating function Rf_install src/library/stats/src/model.c:1738
-  [UP] unprotected variable a while calling allocating function Rf_lcons(S:list,?) src/library/stats/src/model.c:1738
-  [UP] unprotected variable a while calling allocating function ExtractVars src/library/stats/src/model.c:1739
-  [UP] unprotected variable a while calling allocating function Rf_install src/library/stats/src/model.c:1742
-  [UP] unprotected variable pattern while calling allocating function Rf_install src/library/stats/src/model.c:1855
-  [UP] unprotected variable pattern while calling allocating function AllocTerm src/library/stats/src/model.c:1859
-  [UP] unprotected variable pattern while calling allocating function Rf_install src/library/stats/src/model.c:1873
-  [UP] unprotected variable pattern while calling allocating function Rf_allocVector src/library/stats/src/model.c:1879
-  [UP] unprotected variable pattern while calling allocating function Rf_mkChar src/library/stats/src/model.c:1901
-  [UP] unprotected variable pattern while calling allocating function Rf_allocVector src/library/stats/src/model.c:1904
+  [UP] unprotected variable a while calling allocating function Rf_install src/library/stats/src/model.c:1739
+  [UP] unprotected variable a while calling allocating function Rf_lcons(S:list,?) src/library/stats/src/model.c:1739
+  [UP] unprotected variable a while calling allocating function ExtractVars src/library/stats/src/model.c:1740
+  [UP] unprotected variable a while calling allocating function Rf_install src/library/stats/src/model.c:1743
+  [UP] unprotected variable pattern while calling allocating function Rf_install src/library/stats/src/model.c:1856
+  [UP] unprotected variable pattern while calling allocating function AllocTerm src/library/stats/src/model.c:1860
+  [UP] unprotected variable pattern while calling allocating function Rf_install src/library/stats/src/model.c:1874
+  [UP] unprotected variable pattern while calling allocating function Rf_allocVector src/library/stats/src/model.c:1880
+  [UP] unprotected variable pattern while calling allocating function Rf_mkChar src/library/stats/src/model.c:1902
+  [UP] unprotected variable pattern while calling allocating function Rf_allocVector src/library/stats/src/model.c:1905
