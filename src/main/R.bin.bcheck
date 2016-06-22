@@ -213,11 +213,11 @@ Function do_attributesgets
   [UP] unprotected variable names while calling allocating function Rf_allocVector src/main/attrib.c:1303
   [UP] unprotected variable names while calling allocating function Rf_shallow_duplicate src/main/attrib.c:1310
   [UP] unprotected variable names while calling allocating function Rf_setAttrib(?,S:names,?) src/main/attrib.c:1324
-  [UP] unprotected variable names while calling allocating function Rf_setAttrib(?,S:dim,?) src/main/attrib.c:1341
-  [UP] unprotected variable names while calling allocating function Rf_setAttrib(V,S:dim,?) src/main/attrib.c:1341
-  [UP] unprotected variable names while calling allocating function Rf_installTrChar src/main/attrib.c:1347
-  [UP] unprotected variable names while calling allocating function Rf_setAttrib src/main/attrib.c:1347
-  [UP] unprotected variable names while calling allocating function Rf_setAttrib(V,?,?) src/main/attrib.c:1347
+  [UP] unprotected variable names while calling allocating function Rf_setAttrib(?,S:dim,?) src/main/attrib.c:1342
+  [UP] unprotected variable names while calling allocating function Rf_setAttrib(V,S:dim,?) src/main/attrib.c:1342
+  [UP] unprotected variable names while calling allocating function Rf_installTrChar src/main/attrib.c:1348
+  [UP] unprotected variable names while calling allocating function Rf_setAttrib src/main/attrib.c:1348
+  [UP] unprotected variable names while calling allocating function Rf_setAttrib(V,?,?) src/main/attrib.c:1348
 
 Function do_cum
   [UP] ignoring variable ans as it has address taken, results will be incomplete 
