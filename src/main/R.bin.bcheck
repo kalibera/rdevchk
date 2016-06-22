@@ -21,7 +21,7 @@ Function NumericValue
 Function R_DispatchOrEvalSP
   [UP] unprotected variable prom while calling allocating function Rf_DispatchOrEval src/main/subassign.c:1463
 
-Function R_DispatchOrEvalSP5365
+Function R_DispatchOrEvalSP5373
   [UP] unprotected variable prom while calling allocating function Rf_DispatchOrEval src/main/subset.c:636
 
 Function R_FinalizeSrcRefState
@@ -162,7 +162,7 @@ Function SymbolValue
   [PB] has possible protection stack imbalance src/main/gram.c:4990
 
 Function applydefine
-  [UP] unprotected variable saverhs while calling allocating function Rf_endcontext src/main/eval.c:2068
+  [UP] unprotected variable saverhs while calling allocating function Rf_endcontext src/main/eval.c:2126
 
 Function bcEval
   [UP] ignoring variable sa as it has address taken, results will be incomplete 
@@ -179,23 +179,23 @@ Function bcEval
   [UP] ignoring variable sb205 as it has address taken, results will be incomplete 
   [UP] ignoring variable sb228 as it has address taken, results will be incomplete 
   [UP] ignoring variable sb250 as it has address taken, results will be incomplete 
-  [UP] unprotected variable __cell__ while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5427
-  [UP] unprotected variable __cell__100 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5435
-  [UP] unprotected variable __cell__107 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5459
-  [UP] unprotected variable __cell__112 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5469
-  [UP] unprotected variable __cell__115 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5475
-  [UP] unprotected variable __cell__118 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5477
-  [UP] unprotected variable __cell__121 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5478
-  [UP] unprotected variable __cell__124 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5479
-  [UP] unprotected variable __cell__397 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5630
-  [UP] unprotected variable __cell__418 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5632
-  [UP] unprotected variable __cell__426 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5634
-  [UP] unprotected variable __cell__442 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5635
-  [UP] unprotected variable __cell__462 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5637
-  [UP] unprotected variable __cell__485 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5639
-  [UP] unprotected variable __cell__493 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5641
-  [UP] unprotected variable __cell__579 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5810
-  [UP] unprotected variable __cell__583 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5839
+  [UP] unprotected variable __cell__ while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5485
+  [UP] unprotected variable __cell__100 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5493
+  [UP] unprotected variable __cell__107 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5517
+  [UP] unprotected variable __cell__112 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5527
+  [UP] unprotected variable __cell__115 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5533
+  [UP] unprotected variable __cell__118 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5535
+  [UP] unprotected variable __cell__121 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5536
+  [UP] unprotected variable __cell__124 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5537
+  [UP] unprotected variable __cell__397 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5688
+  [UP] unprotected variable __cell__418 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5690
+  [UP] unprotected variable __cell__426 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5692
+  [UP] unprotected variable __cell__442 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5693
+  [UP] unprotected variable __cell__462 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5695
+  [UP] unprotected variable __cell__485 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5697
+  [UP] unprotected variable __cell__493 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5699
+  [UP] unprotected variable __cell__579 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5868
+  [UP] unprotected variable __cell__583 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5897
 
 Function do_Math2
   [UP] ignoring variable res as it has address taken, results will be incomplete 
@@ -380,14 +380,14 @@ Function setParseFilename
   [PB] has possible protection stack imbalance src/main/gram.c:5013
 
 Function vec2buff
-  [UP] unprotected variable nv while calling allocating function linebreak src/main/deparse.c:1541
-  [UP] unprotected variable nv while calling allocating function Rf_isValidName src/main/deparse.c:1545
-  [UP] unprotected variable nv while calling allocating function Rf_translateChar src/main/deparse.c:1545
-  [UP] unprotected variable nv while calling allocating function deparse2buff src/main/deparse.c:1546
-  [UP] unprotected variable nv while calling allocating function deparse2buff src/main/deparse.c:1549
+  [UP] unprotected variable nv while calling allocating function linebreak src/main/deparse.c:1545
+  [UP] unprotected variable nv while calling allocating function Rf_isValidName src/main/deparse.c:1549
+  [UP] unprotected variable nv while calling allocating function Rf_translateChar src/main/deparse.c:1549
+  [UP] unprotected variable nv while calling allocating function deparse2buff src/main/deparse.c:1550
   [UP] unprotected variable nv while calling allocating function deparse2buff src/main/deparse.c:1553
-  [UP] unprotected variable nv while calling allocating function src2buff src/main/deparse.c:1559
-  [UP] unprotected variable nv while calling allocating function deparse2buff src/main/deparse.c:1560
+  [UP] unprotected variable nv while calling allocating function deparse2buff src/main/deparse.c:1557
+  [UP] unprotected variable nv while calling allocating function src2buff src/main/deparse.c:1563
+  [UP] unprotected variable nv while calling allocating function deparse2buff src/main/deparse.c:1564
 
 Function xxaddformal0
   [PB] has negative depth src/main/gram.c:2992
