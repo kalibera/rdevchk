@@ -1,0 +1,17 @@
+
+Function coxexact
+  [UP] unsupported form of unprotect, unprotecting all variables, results will be incomplete <R.INSTALL>/survival/src/coxexact.c:262
+  [UP] unsupported form of unprotect, unprotecting all variables, results will be incomplete <R.INSTALL>/survival/src/coxexact.c:357
+  [UP] unsupported form of unprotect, unprotecting all variables, results will be incomplete <R.INSTALL>/survival/src/coxexact.c:406
+
+Function coxfit6
+  [UP] unsupported form of unprotect, unprotecting all variables, results will be incomplete <R.INSTALL>/survival/src/coxfit6.c:542
+
+Function survfitci
+  [UP] unsupported form of unprotect, unprotecting all variables, results will be incomplete <R.INSTALL>/survival/src/survfitci.c:255
+
+Function survreg6
+  [UP] unsupported form of unprotect, unprotecting all variables, results will be incomplete <R.INSTALL>/survival/src/survreg6.c:329
+
+Function survreg7
+  [UP] unsupported form of unprotect, unprotecting all variables, results will be incomplete <R.INSTALL>/survival/src/survreg7.c:500

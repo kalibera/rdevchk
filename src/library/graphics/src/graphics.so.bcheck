@@ -1,0 +1,64 @@
+
+Function C_abline
+  [UP] unprotected variable a while calling allocating function Rf_coerceVector src/library/graphics/src/plot.c:2747
+  [UP] unprotected variable a while calling allocating function Rf_coerceVector src/library/graphics/src/plot.c:2751
+  [UP] unprotected variable b while calling allocating function Rf_coerceVector src/library/graphics/src/plot.c:2751
+  [UP] unprotected variable a while calling allocating function Rf_coerceVector src/library/graphics/src/plot.c:2755
+  [UP] unprotected variable b while calling allocating function Rf_coerceVector src/library/graphics/src/plot.c:2755
+  [UP] unprotected variable h while calling allocating function Rf_coerceVector src/library/graphics/src/plot.c:2755
+  [UP] unprotected variable a while calling allocating function Rf_coerceVector src/library/graphics/src/plot.c:2759
+  [UP] unprotected variable b while calling allocating function Rf_coerceVector src/library/graphics/src/plot.c:2759
+  [UP] unprotected variable h while calling allocating function Rf_coerceVector src/library/graphics/src/plot.c:2759
+  [UP] unprotected variable v while calling allocating function Rf_coerceVector src/library/graphics/src/plot.c:2759
+  [UP] unprotected variable a while calling allocating function Rf_FixupCol src/library/graphics/src/plot.c:2763
+  [UP] unprotected variable b while calling allocating function Rf_FixupCol src/library/graphics/src/plot.c:2763
+  [UP] unprotected variable h while calling allocating function Rf_FixupCol src/library/graphics/src/plot.c:2763
+  [UP] unprotected variable untf while calling allocating function Rf_FixupCol src/library/graphics/src/plot.c:2763
+  [UP] unprotected variable v while calling allocating function Rf_FixupCol src/library/graphics/src/plot.c:2763
+  [UP] unprotected variable a while calling allocating function Rf_FixupLty src/library/graphics/src/plot.c:2766
+  [UP] unprotected variable b while calling allocating function Rf_FixupLty src/library/graphics/src/plot.c:2766
+  [UP] unprotected variable h while calling allocating function Rf_FixupLty src/library/graphics/src/plot.c:2766
+  [UP] unprotected variable untf while calling allocating function Rf_FixupLty src/library/graphics/src/plot.c:2766
+  [UP] unprotected variable v while calling allocating function Rf_FixupLty src/library/graphics/src/plot.c:2766
+  [UP] unprotected variable a while calling allocating function Rf_FixupLwd src/library/graphics/src/plot.c:2769
+  [UP] unprotected variable b while calling allocating function Rf_FixupLwd src/library/graphics/src/plot.c:2769
+  [UP] unprotected variable h while calling allocating function Rf_FixupLwd src/library/graphics/src/plot.c:2769
+  [UP] unprotected variable untf while calling allocating function Rf_FixupLwd src/library/graphics/src/plot.c:2769
+  [UP] unprotected variable v while calling allocating function Rf_FixupLwd src/library/graphics/src/plot.c:2769
+  [UP] unprotected variable a while calling allocating function Rf_ProcessInlinePars src/library/graphics/src/plot.c:2774
+  [UP] unprotected variable b while calling allocating function Rf_ProcessInlinePars src/library/graphics/src/plot.c:2774
+  [UP] unprotected variable h while calling allocating function Rf_ProcessInlinePars src/library/graphics/src/plot.c:2774
+  [UP] unprotected variable untf while calling allocating function Rf_ProcessInlinePars src/library/graphics/src/plot.c:2774
+  [UP] unprotected variable v while calling allocating function Rf_ProcessInlinePars src/library/graphics/src/plot.c:2774
+  [UP] unprotected variable b while calling allocating function Rf_asReal src/library/graphics/src/plot.c:2786
+  [UP] unprotected variable h while calling allocating function Rf_asReal src/library/graphics/src/plot.c:2786
+  [UP] unprotected variable untf while calling allocating function Rf_asReal src/library/graphics/src/plot.c:2786
+  [UP] unprotected variable v while calling allocating function Rf_asReal src/library/graphics/src/plot.c:2786
+  [UP] unprotected variable h while calling allocating function Rf_asReal src/library/graphics/src/plot.c:2787
+  [UP] unprotected variable untf while calling allocating function Rf_asReal src/library/graphics/src/plot.c:2787
+  [UP] unprotected variable v while calling allocating function Rf_asReal src/library/graphics/src/plot.c:2787
+  [UP] unprotected variable h while calling allocating function Rf_GMode src/library/graphics/src/plot.c:2797
+  [UP] unprotected variable untf while calling allocating function Rf_GMode src/library/graphics/src/plot.c:2797
+  [UP] unprotected variable v while calling allocating function Rf_GMode src/library/graphics/src/plot.c:2797
+  [UP] unprotected variable h while calling allocating function Rf_GPolyline src/library/graphics/src/plot.c:2848
+  [UP] unprotected variable v while calling allocating function Rf_GPolyline src/library/graphics/src/plot.c:2848
+  [UP] unprotected variable h while calling allocating function Rf_GLine src/library/graphics/src/plot.c:2859
+  [UP] unprotected variable v while calling allocating function Rf_GLine src/library/graphics/src/plot.c:2859
+  [UP] unprotected variable h while calling allocating function Rf_GMode src/library/graphics/src/plot.c:2862
+  [UP] unprotected variable v while calling allocating function Rf_GMode src/library/graphics/src/plot.c:2862
+  [UP] unprotected variable h while calling allocating function Rf_GMode src/library/graphics/src/plot.c:2866
+  [UP] unprotected variable v while calling allocating function Rf_GMode src/library/graphics/src/plot.c:2866
+  [UP] unprotected variable h while calling allocating function Rf_GLine src/library/graphics/src/plot.c:2879
+  [UP] unprotected variable v while calling allocating function Rf_GLine src/library/graphics/src/plot.c:2879
+  [UP] unprotected variable v while calling allocating function Rf_GMode src/library/graphics/src/plot.c:2883
+  [UP] unprotected variable v while calling allocating function Rf_GMode src/library/graphics/src/plot.c:2886
+  [UP] unprotected variable v while calling allocating function Rf_GLine src/library/graphics/src/plot.c:2899
+
+Function C_par
+  [UP] unprotected variable oldnames while calling allocating function Query src/library/graphics/src/par.c:1101
+  [UP] unprotected variable oldnames while calling allocating function Specify src/library/graphics/src/par.c:1103
+  [UP] unprotected variable oldnames while calling allocating function Specify(?,V,?) src/library/graphics/src/par.c:1103
+  [UP] unprotected variable oldnames while calling allocating function Query src/library/graphics/src/par.c:1108
+
+Function contour
+  [UP] protect stack is too deep, unprotecting all variables, results will be incomplete

@@ -1,0 +1,8 @@
+WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at dsCMatrix_chol <R.INSTALL>/Matrix/src/dsCMatrix.c:141  
+WARNING Suspicious call (two or more unprotected arguments) to SET_VECTOR_ELT at dsyMatrix_matrix_mm <R.INSTALL>/Matrix/src/dsyMatrix.c:126  
+WARNING Suspicious call (two or more unprotected arguments) to SET_VECTOR_ELT at dsyMatrix_matrix_mm <R.INSTALL>/Matrix/src/dsyMatrix.c:129  
+WARNING Suspicious call (two or more unprotected arguments) to Rf_setAttrib at lapack_qr <R.INSTALL>/Matrix/src/dense.c:243  
+WARNING Suspicious call (two or more unprotected arguments) to SET_VECTOR_ELT at sparseQR_Qmult <R.INSTALL>/Matrix/src/sparseQR.c:70  
+WARNING Suspicious call (two or more unprotected arguments) to SET_STRING_ELT at tr_d_packed_addDiag <R.INSTALL>/Matrix/src/Mutils.c:543  
+WARNING Suspicious call (two or more unprotected arguments) to SET_STRING_ELT at tr_d_packed_setDiag <R.INSTALL>/Matrix/src/Mutils.c:508  
+WARNING Suspicious call (two or more unprotected arguments) to SET_STRING_ELT at tr_l_packed_setDiag <R.INSTALL>/Matrix/src/Mutils.c:514  

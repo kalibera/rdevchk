@@ -1,0 +1,4 @@
+
+Function in_RX11_dataentry
+  [UP] unprotected variable tnames while calling allocating function Rf_duplicate src/modules/X11/dataentry.c:335
+  [UP] unprotected variable tnames while calling allocating function Rf_allocVector src/modules/X11/dataentry.c:343

@@ -1,0 +1,240 @@
+
+Function ParseLatex
+  [PB] has negative depth src/library/tools/src/gramLatex.c:2331
+  [PB] has possible protection stack imbalance src/library/tools/src/gramLatex.c:2332
+
+Function ParseRd
+  [PB] has negative depth src/library/tools/src/gramRd.c:3569
+  [PB] has possible protection stack imbalance src/library/tools/src/gramRd.c:3573
+
+Function Rf_yyparse
+  [UP] allocating function setId may destroy its unprotected argument (yyval), which is later used. src/main/gram.c:2174
+  [UP] allocating function setId may destroy its unprotected argument (yyval), which is later used. src/main/gram.c:2179
+  [UP] allocating function setId may destroy its unprotected argument (yyval), which is later used. src/main/gram.c:2184
+  [UP] allocating function setId may destroy its unprotected argument (yyval), which is later used. src/main/gram.c:2189
+  [UP] allocating function setId may destroy its unprotected argument (yyval), which is later used. src/main/gram.c:2194
+  [UP] allocating function setId may destroy its unprotected argument (yyval), which is later used. src/main/gram.c:2199
+  [UP] allocating function setId may destroy its unprotected argument (yyval), which is later used. src/main/gram.c:2204
+  [UP] allocating function setId may destroy its unprotected argument (yyval), which is later used. src/main/gram.c:2209
+  [UP] allocating function setId may destroy its unprotected argument (yyval), which is later used. src/main/gram.c:2214
+  [UP] allocating function setId may destroy its unprotected argument (yyval), which is later used. src/main/gram.c:2219
+  [UP] allocating function setId may destroy its unprotected argument (yyval), which is later used. src/main/gram.c:2224
+  [UP] allocating function setId may destroy its unprotected argument (yyval), which is later used. src/main/gram.c:2229
+  [UP] allocating function setId may destroy its unprotected argument (yyval), which is later used. src/main/gram.c:2234
+  [UP] allocating function setId may destroy its unprotected argument (yyval), which is later used. src/main/gram.c:2239
+  [UP] allocating function setId may destroy its unprotected argument (yyval), which is later used. src/main/gram.c:2244
+  [UP] allocating function setId may destroy its unprotected argument (yyval), which is later used. src/main/gram.c:2249
+  [UP] allocating function setId may destroy its unprotected argument (yyval), which is later used. src/main/gram.c:2254
+  [UP] allocating function setId may destroy its unprotected argument (yyval), which is later used. src/main/gram.c:2259
+  [UP] allocating function setId may destroy its unprotected argument (yyval), which is later used. src/main/gram.c:2264
+  [UP] allocating function setId may destroy its unprotected argument (yyval), which is later used. src/main/gram.c:2269
+  [UP] allocating function setId may destroy its unprotected argument (yyval), which is later used. src/main/gram.c:2274
+  [UP] allocating function setId may destroy its unprotected argument (yyval), which is later used. src/main/gram.c:2279
+  [UP] allocating function setId may destroy its unprotected argument (yyval), which is later used. src/main/gram.c:2284
+  [UP] allocating function setId may destroy its unprotected argument (yyval), which is later used. src/main/gram.c:2289
+  [UP] allocating function setId may destroy its unprotected argument (yyval), which is later used. src/main/gram.c:2294
+  [UP] allocating function setId may destroy its unprotected argument (yyval), which is later used. src/main/gram.c:2299
+  [UP] allocating function setId may destroy its unprotected argument (yyval), which is later used. src/main/gram.c:2304
+  [UP] allocating function setId may destroy its unprotected argument (yyval), which is later used. src/main/gram.c:2309
+  [UP] allocating function setId may destroy its unprotected argument (yyval), which is later used. src/main/gram.c:2314
+  [UP] allocating function setId may destroy its unprotected argument (yyval), which is later used. src/main/gram.c:2319
+  [UP] allocating function setId may destroy its unprotected argument (yyval), which is later used. src/main/gram.c:2324
+  [UP] allocating function setId may destroy its unprotected argument (yyval), which is later used. src/main/gram.c:2329
+  [UP] allocating function setId may destroy its unprotected argument (yyval), which is later used. src/main/gram.c:2334
+  [UP] allocating function setId may destroy its unprotected argument (yyval), which is later used. src/main/gram.c:2339
+  [UP] allocating function setId may destroy its unprotected argument (yyval), which is later used. src/main/gram.c:2344
+  [UP] allocating function setId may destroy its unprotected argument (yyval), which is later used. src/main/gram.c:2349
+  [UP] allocating function setId may destroy its unprotected argument (yyval), which is later used. src/main/gram.c:2354
+  [UP] allocating function setId may destroy its unprotected argument (yyval), which is later used. src/main/gram.c:2359
+  [UP] allocating function setId may destroy its unprotected argument (yyval), which is later used. src/main/gram.c:2364
+  [UP] allocating function setId may destroy its unprotected argument (yyval), which is later used. src/main/gram.c:2369
+  [UP] allocating function setId may destroy its unprotected argument (yyval), which is later used. src/main/gram.c:2374
+  [UP] allocating function setId may destroy its unprotected argument (yyval), which is later used. src/main/gram.c:2379
+  [UP] allocating function setId may destroy its unprotected argument (yyval), which is later used. src/main/gram.c:2384
+  [UP] allocating function setId may destroy its unprotected argument (yyval), which is later used. src/main/gram.c:2389
+  [UP] allocating function setId may destroy its unprotected argument (yyval), which is later used. src/main/gram.c:2394
+  [UP] allocating function setId may destroy its unprotected argument (yyval), which is later used. src/main/gram.c:2399
+  [UP] allocating function setId may destroy its unprotected argument (yyval), which is later used. src/main/gram.c:2404
+  [UP] allocating function setId may destroy its unprotected argument (yyval), which is later used. src/main/gram.c:2409
+  [UP] allocating function setId may destroy its unprotected argument (yyval), which is later used. src/main/gram.c:2414
+  [UP] allocating function setId may destroy its unprotected argument (yyval), which is later used. src/main/gram.c:2419
+  [UP] allocating function setId may destroy its unprotected argument (yyval), which is later used. src/main/gram.c:2424
+  [UP] allocating function setId may destroy its unprotected argument (yyval), which is later used. src/main/gram.c:2439
+  [UP] allocating function setId may destroy its unprotected argument (yyval), which is later used. src/main/gram.c:2444
+
+Function Rf_yyparse112
+  [PB] has negative depth src/library/tools/src/gramRd.c:2279
+  [PB] has negative depth src/library/tools/src/gramRd.c:2284
+  [PB] has negative depth src/library/tools/src/gramRd.c:2294
+  [PB] has negative depth src/library/tools/src/gramRd.c:2344
+  [PB] has negative depth src/library/tools/src/gramRd.c:2509
+  [UP] unprotected variable yyval while calling allocating function Rf_warning src/library/tools/src/gramRd.c:2591
+  [UP] unprotected variable yyval while calling allocating function Rf_warningcall src/library/tools/src/gramRd.c:2594
+  [PB] has possible protection stack imbalance src/library/tools/src/gramRd.c:2959
+
+Function mkCode
+  [PB] has possible protection stack imbalance src/library/tools/src/gramRd.c:4182
+
+Function mkComment
+  [PB] has possible protection stack imbalance src/library/tools/src/gramLatex.c:2600
+
+Function mkComment132
+  [PB] has possible protection stack imbalance src/library/tools/src/gramRd.c:4080
+
+Function mkIfdef
+  [PB] has possible protection stack imbalance src/library/tools/src/gramRd.c:4265
+
+Function mkMarkup
+  [PB] has possible protection stack imbalance src/library/tools/src/gramLatex.c:2630
+
+Function mkMarkup131
+  [PB] has possible protection stack imbalance src/library/tools/src/gramRd.c:4222
+
+Function mkText
+  [PB] has possible protection stack imbalance src/library/tools/src/gramLatex.c:2583
+
+Function mkText129
+  [PB] has possible protection stack imbalance src/library/tools/src/gramRd.c:4064
+
+Function mkVerb
+  [PB] has possible protection stack imbalance src/library/tools/src/gramLatex.c:2647
+
+Function mkVerb127
+  [PB] has possible protection stack imbalance src/library/tools/src/gramRd.c:4304
+
+Function mkVerbEnv
+  [PB] has negative depth src/library/tools/src/gramLatex.c:2668
+  [PB] has possible protection stack imbalance src/library/tools/src/gramLatex.c:2674
+
+Function token
+  [PB] has possible protection stack imbalance src/library/tools/src/gramLatex.c:2556
+
+Function token126
+  [PB] has possible protection stack imbalance src/library/tools/src/gramRd.c:4026
+
+Function xxOptionmarkup
+  [PB] has negative depth src/library/tools/src/gramRd.c:3237
+  [PB] has possible protection stack imbalance src/library/tools/src/gramRd.c:3246
+
+Function xxSetInVerbEnv
+  [PB] has possible protection stack imbalance src/library/tools/src/gramLatex.c:2120
+
+Function xxblock
+  [PB] has possible protection stack imbalance src/library/tools/src/gramLatex.c:2100
+
+Function xxenv
+  [PB] has negative depth src/library/tools/src/gramLatex.c:2050
+  [PB] has negative depth src/library/tools/src/gramLatex.c:2057
+  [PB] has possible protection stack imbalance src/library/tools/src/gramLatex.c:2061
+
+Function xxlist
+  [PB] has negative depth src/library/tools/src/gramLatex.c:2032
+  [PB] has possible protection stack imbalance src/library/tools/src/gramLatex.c:2036
+
+Function xxlist119
+  [PB] has negative depth src/library/tools/src/gramRd.c:3098
+  [PB] has possible protection stack imbalance src/library/tools/src/gramRd.c:3103
+
+Function xxmarkup
+  [PB] has negative depth src/library/tools/src/gramRd.c:3124
+  [PB] has possible protection stack imbalance src/library/tools/src/gramRd.c:3129
+
+Function xxmarkup2
+  [PB] has negative depth src/library/tools/src/gramRd.c:3269
+  [PB] has negative depth src/library/tools/src/gramRd.c:3274
+  [PB] has possible protection stack imbalance src/library/tools/src/gramRd.c:3280
+
+Function xxmarkup3
+  [PB] has negative depth src/library/tools/src/gramRd.c:3302
+  [PB] has negative depth src/library/tools/src/gramRd.c:3310
+  [PB] has negative depth src/library/tools/src/gramRd.c:3315
+  [PB] has possible protection stack imbalance src/library/tools/src/gramRd.c:3321
+
+Function xxnewcommand
+  [PB] has negative depth src/library/tools/src/gramRd.c:3171
+  [PB] has possible protection stack imbalance src/library/tools/src/gramRd.c:3173
+
+Function xxnewlist
+  [PB] has possible protection stack imbalance src/library/tools/src/gramLatex.c:2021
+
+Function xxnewlist121
+  [PB] has possible protection stack imbalance src/library/tools/src/gramRd.c:3041
+
+Function xxpopMode
+  [PB] has negative depth src/library/tools/src/gramRd.c:3006
+  [PB] has possible protection stack imbalance src/library/tools/src/gramRd.c:3007
+
+Function xxpushMode
+  [PB] has possible protection stack imbalance src/library/tools/src/gramRd.c:2989
+
+Function xxsavevalue
+  [PB] has possible protection stack imbalance src/library/tools/src/gramLatex.c:2137
+
+Function xxusermacro
+  [PB] has negative depth src/library/tools/src/gramRd.c:3202
+  [PB] has possible protection stack imbalance src/library/tools/src/gramRd.c:3224
+
+Function yydestruct
+  [PB] has negative depth src/library/tools/src/gramLatex.c:1328
+  [PB] has negative depth src/library/tools/src/gramLatex.c:1333
+  [PB] has negative depth src/library/tools/src/gramLatex.c:1338
+  [PB] has negative depth src/library/tools/src/gramLatex.c:1343
+  [PB] has negative depth src/library/tools/src/gramLatex.c:1348
+  [PB] has possible protection stack imbalance src/library/tools/src/gramLatex.c:1355
+
+Function yydestruct113
+  [PB] has negative depth src/library/tools/src/gramRd.c:1697
+  [PB] has negative depth src/library/tools/src/gramRd.c:1702
+  [PB] has negative depth src/library/tools/src/gramRd.c:1707
+  [PB] has negative depth src/library/tools/src/gramRd.c:1712
+  [PB] has negative depth src/library/tools/src/gramRd.c:1717
+  [PB] has negative depth src/library/tools/src/gramRd.c:1722
+  [PB] has negative depth src/library/tools/src/gramRd.c:1727
+  [PB] has negative depth src/library/tools/src/gramRd.c:1732
+  [PB] has negative depth src/library/tools/src/gramRd.c:1737
+  [PB] has negative depth src/library/tools/src/gramRd.c:1742
+  [PB] has negative depth src/library/tools/src/gramRd.c:1747
+  [PB] has negative depth src/library/tools/src/gramRd.c:1752
+  [PB] has negative depth src/library/tools/src/gramRd.c:1757
+  [PB] has negative depth src/library/tools/src/gramRd.c:1762
+  [PB] has negative depth src/library/tools/src/gramRd.c:1767
+  [PB] has negative depth src/library/tools/src/gramRd.c:1772
+  [PB] has negative depth src/library/tools/src/gramRd.c:1777
+  [PB] has negative depth src/library/tools/src/gramRd.c:1782
+  [PB] has negative depth src/library/tools/src/gramRd.c:1787
+  [PB] has negative depth src/library/tools/src/gramRd.c:1792
+  [PB] has negative depth src/library/tools/src/gramRd.c:1797
+  [PB] has negative depth src/library/tools/src/gramRd.c:1802
+  [PB] has negative depth src/library/tools/src/gramRd.c:1807
+  [PB] has negative depth src/library/tools/src/gramRd.c:1812
+  [PB] has negative depth src/library/tools/src/gramRd.c:1817
+  [PB] has negative depth src/library/tools/src/gramRd.c:1822
+  [PB] has negative depth src/library/tools/src/gramRd.c:1827
+  [PB] has negative depth src/library/tools/src/gramRd.c:1832
+  [PB] has negative depth src/library/tools/src/gramRd.c:1837
+  [PB] has negative depth src/library/tools/src/gramRd.c:1842
+  [PB] has negative depth src/library/tools/src/gramRd.c:1847
+  [PB] has negative depth src/library/tools/src/gramRd.c:1852
+  [PB] has negative depth src/library/tools/src/gramRd.c:1857
+  [PB] has negative depth src/library/tools/src/gramRd.c:1862
+  [PB] has negative depth src/library/tools/src/gramRd.c:1867
+  [PB] has negative depth src/library/tools/src/gramRd.c:1872
+  [PB] has negative depth src/library/tools/src/gramRd.c:1877
+  [PB] has negative depth src/library/tools/src/gramRd.c:1882
+  [PB] has negative depth src/library/tools/src/gramRd.c:1887
+  [PB] has negative depth src/library/tools/src/gramRd.c:1892
+  [PB] has negative depth src/library/tools/src/gramRd.c:1897
+  [PB] has negative depth src/library/tools/src/gramRd.c:1902
+  [PB] has negative depth src/library/tools/src/gramRd.c:1907
+  [PB] has negative depth src/library/tools/src/gramRd.c:1912
+  [PB] has negative depth src/library/tools/src/gramRd.c:1917
+  [PB] has negative depth src/library/tools/src/gramRd.c:1922
+  [PB] has negative depth src/library/tools/src/gramRd.c:1927
+  [PB] has negative depth src/library/tools/src/gramRd.c:1932
+  [PB] has negative depth src/library/tools/src/gramRd.c:1937
+  [PB] has negative depth src/library/tools/src/gramRd.c:1942
+  [PB] has negative depth src/library/tools/src/gramRd.c:1947
+  [PB] has negative depth src/library/tools/src/gramRd.c:1952
+  [PB] has negative depth src/library/tools/src/gramRd.c:1957
+  [PB] has negative depth src/library/tools/src/gramRd.c:1962
+  [PB] has possible protection stack imbalance src/library/tools/src/gramRd.c:1969

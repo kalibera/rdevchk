@@ -1,0 +1,5 @@
+
+Function dotTclObjv
+  [UP] unprotected variable nm while calling allocating function Rf_translateChar src/library/tcltk/src/tcltk.c:225
+  [UP] unprotected variable nm while calling allocating function R_alloc src/library/tcltk/src/tcltk.c:229
+  [UP] unprotected variable nm while calling allocating function Rf_translateChar src/library/tcltk/src/tcltk.c:234

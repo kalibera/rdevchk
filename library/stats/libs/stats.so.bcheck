@@ -1,0 +1,125 @@
+
+Function Cdist
+  [UP] unprotected variable names while calling allocating function Rf_install src/library/stats/src/distance.c:288
+  [UP] unprotected variable names while calling allocating function Rf_setAttrib(V,?,?) src/library/stats/src/distance.c:288
+  [UP] unprotected variable names while calling allocating function Rf_translateChar src/library/stats/src/distance.c:288
+
+Function CreateGrad
+  [UP] unprotected variable q while calling allocating function Rf_ScalarString src/library/stats/src/deriv.c:807
+
+Function CreateHess
+  [UP] unprotected variable q while calling allocating function Rf_ScalarString src/library/stats/src/deriv.c:833
+
+Function D
+  [PB] has negative depth src/library/stats/src/deriv.c:311
+  [UP] attempt to unprotect more items (2) than protected (0), results will be incomplete src/library/stats/src/deriv.c:311
+  [PB] has negative depth src/library/stats/src/deriv.c:319
+  [UP] attempt to unprotect more items (1) than protected (0), results will be incomplete src/library/stats/src/deriv.c:319
+  [PB] has negative depth src/library/stats/src/deriv.c:325
+  [UP] attempt to unprotect more items (2) than protected (0), results will be incomplete src/library/stats/src/deriv.c:325
+  [PB] has negative depth src/library/stats/src/deriv.c:332
+  [UP] attempt to unprotect more items (4) than protected (0), results will be incomplete src/library/stats/src/deriv.c:332
+  [PB] has negative depth src/library/stats/src/deriv.c:342
+  [UP] attempt to unprotect more items (7) than protected (2), results will be incomplete src/library/stats/src/deriv.c:342
+  [PB] has negative depth src/library/stats/src/deriv.c:353
+  [UP] attempt to unprotect more items (4) than protected (0), results will be incomplete src/library/stats/src/deriv.c:353
+  [PB] has negative depth src/library/stats/src/deriv.c:365
+  [UP] attempt to unprotect more items (5) than protected (0), results will be incomplete src/library/stats/src/deriv.c:365
+  [PB] has negative depth src/library/stats/src/deriv.c:382
+  [UP] attempt to unprotect more items (1) than protected (0), results will be incomplete src/library/stats/src/deriv.c:382
+  [PB] has negative depth src/library/stats/src/deriv.c:390
+  [UP] attempt to unprotect more items (1) than protected (0), results will be incomplete src/library/stats/src/deriv.c:390
+  [PB] has negative depth src/library/stats/src/deriv.c:396
+  [UP] attempt to unprotect more items (3) than protected (0), results will be incomplete src/library/stats/src/deriv.c:396
+  [PB] has negative depth src/library/stats/src/deriv.c:402
+  [UP] attempt to unprotect more items (2) than protected (0), results will be incomplete src/library/stats/src/deriv.c:402
+  [PB] has negative depth src/library/stats/src/deriv.c:410
+  [UP] attempt to unprotect more items (4) than protected (0), results will be incomplete src/library/stats/src/deriv.c:410
+  [PB] has negative depth src/library/stats/src/deriv.c:416
+  [UP] attempt to unprotect more items (2) than protected (0), results will be incomplete src/library/stats/src/deriv.c:416
+  [PB] has negative depth src/library/stats/src/deriv.c:422
+  [UP] attempt to unprotect more items (2) than protected (0), results will be incomplete src/library/stats/src/deriv.c:422
+  [PB] has negative depth src/library/stats/src/deriv.c:430
+  [UP] attempt to unprotect more items (4) than protected (0), results will be incomplete src/library/stats/src/deriv.c:430
+  [PB] has negative depth src/library/stats/src/deriv.c:445
+  [UP] attempt to unprotect more items (2) than protected (0), results will be incomplete src/library/stats/src/deriv.c:445
+  [PB] has negative depth src/library/stats/src/deriv.c:453
+  [UP] attempt to unprotect more items (4) than protected (0), results will be incomplete src/library/stats/src/deriv.c:453
+  [PB] has negative depth src/library/stats/src/deriv.c:462
+  [UP] attempt to unprotect more items (6) than protected (0), results will be incomplete src/library/stats/src/deriv.c:462
+  [PB] has negative depth src/library/stats/src/deriv.c:473
+  [UP] attempt to unprotect more items (7) than protected (0), results will be incomplete src/library/stats/src/deriv.c:473
+  [PB] has negative depth src/library/stats/src/deriv.c:480
+  [UP] attempt to unprotect more items (5) than protected (0), results will be incomplete src/library/stats/src/deriv.c:480
+  [PB] has negative depth src/library/stats/src/deriv.c:486
+  [UP] attempt to unprotect more items (2) than protected (0), results will be incomplete src/library/stats/src/deriv.c:486
+  [PB] has negative depth src/library/stats/src/deriv.c:494
+  [UP] attempt to unprotect more items (3) than protected (0), results will be incomplete src/library/stats/src/deriv.c:494
+  [PB] has negative depth src/library/stats/src/deriv.c:500
+  [UP] attempt to unprotect more items (2) than protected (0), results will be incomplete src/library/stats/src/deriv.c:500
+  [PB] has negative depth src/library/stats/src/deriv.c:506
+  [UP] attempt to unprotect more items (3) than protected (0), results will be incomplete src/library/stats/src/deriv.c:506
+  [PB] has negative depth src/library/stats/src/deriv.c:513
+  [UP] attempt to unprotect more items (3) than protected (0), results will be incomplete src/library/stats/src/deriv.c:513
+  [PB] has negative depth src/library/stats/src/deriv.c:521
+  [UP] attempt to unprotect more items (3) than protected (0), results will be incomplete src/library/stats/src/deriv.c:521
+  [PB] has negative depth src/library/stats/src/deriv.c:529
+  [UP] attempt to unprotect more items (3) than protected (0), results will be incomplete src/library/stats/src/deriv.c:529
+  [PB] has possible protection stack imbalance src/library/stats/src/deriv.c:543
+
+Function EncodeVars
+  [PB] has too high protection stack depth results will be incomplete
+  [UP] protect stack is too deep, unprotecting all variables, results will be incomplete
+  [PB] has negative depth src/library/stats/src/model.c:1526
+  [UP] attempt to unprotect more items (1) than protected (0), results will be incomplete src/library/stats/src/model.c:1526
+  [PB] has possible protection stack imbalance src/library/stats/src/model.c:1581
+
+Function PP
+  [PB] has possible protection stack imbalance src/library/stats/src/deriv.c:138
+
+Function deriv
+  [UP] unprotected variable ans while calling allocating function Accumulate2 src/library/stats/src/deriv.c:1016
+  [UP] unprotected variable ans while calling allocating function MakeVariable(?,V) src/library/stats/src/deriv.c:1016
+  [UP] unprotected variable ans while calling allocating function D src/library/stats/src/deriv.c:1019
+  [UP] unprotected variable ans while calling allocating function Rf_installTrChar src/library/stats/src/deriv.c:1019
+  [UP] unprotected variable ans while calling allocating function Accumulate2 src/library/stats/src/deriv.c:1020
+  [UP] unprotected variable ans while calling allocating function isZero src/library/stats/src/deriv.c:1020
+  [UP] unprotected variable ans while calling allocating function Accumulate2 src/library/stats/src/deriv.c:1021
+
+Function fcn
+  [PB] has an unsupported form of unprotect with a variable - binary add results will be incomplete src/library/stats/src/optimize.c:551
+  [UP] unsupported form of unprotect, unprotecting all variables, results will be incomplete src/library/stats/src/optimize.c:551
+
+Function nls_iter
+  [UP] unprotected variable tmp while calling allocating function Rf_lang1 src/library/stats/src/nls.c:167
+  [UP] unprotected variable tmp while calling allocating function Rf_lang1 src/library/stats/src/nls.c:172
+  [UP] unprotected variable tmp while calling allocating function Rf_lang1 src/library/stats/src/nls.c:177
+  [UP] unprotected variable tmp while calling allocating function Rf_lang1 src/library/stats/src/nls.c:182
+
+Function optimhess
+  [UP] unprotected variable nm while calling allocating function Rf_allocVector src/library/stats/src/optim.c:451
+
+Function simplify
+  [PB] has negative depth src/library/stats/src/deriv.c:174
+  [UP] attempt to unprotect more items (1) than protected (0), results will be incomplete src/library/stats/src/deriv.c:174
+  [PB] has negative depth src/library/stats/src/deriv.c:193
+  [UP] attempt to unprotect more items (1) than protected (0), results will be incomplete src/library/stats/src/deriv.c:193
+  [PB] has negative depth src/library/stats/src/deriv.c:199
+  [UP] attempt to unprotect more items (1) than protected (0), results will be incomplete src/library/stats/src/deriv.c:199
+  [PB] has negative depth src/library/stats/src/deriv.c:215
+  [UP] attempt to unprotect more items (1) than protected (0), results will be incomplete src/library/stats/src/deriv.c:215
+  [PB] has negative depth src/library/stats/src/deriv.c:221
+  [UP] attempt to unprotect more items (1) than protected (0), results will be incomplete src/library/stats/src/deriv.c:221
+  [PB] has possible protection stack imbalance src/library/stats/src/deriv.c:273
+
+Function termsform
+  [UP] unprotected variable a while calling allocating function Rf_install src/library/stats/src/model.c:1724
+  [UP] unprotected variable a while calling allocating function Rf_lcons(S:list,?) src/library/stats/src/model.c:1724
+  [UP] unprotected variable a while calling allocating function ExtractVars src/library/stats/src/model.c:1725
+  [UP] unprotected variable a while calling allocating function Rf_install src/library/stats/src/model.c:1728
+  [UP] unprotected variable pattern while calling allocating function Rf_install src/library/stats/src/model.c:1841
+  [UP] unprotected variable pattern while calling allocating function AllocTerm src/library/stats/src/model.c:1845
+  [UP] unprotected variable pattern while calling allocating function Rf_install src/library/stats/src/model.c:1859
+  [UP] unprotected variable pattern while calling allocating function Rf_allocVector src/library/stats/src/model.c:1865
+  [UP] unprotected variable pattern while calling allocating function Rf_mkChar src/library/stats/src/model.c:1887
+  [UP] unprotected variable pattern while calling allocating function Rf_allocVector src/library/stats/src/model.c:1890

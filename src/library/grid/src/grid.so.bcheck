@@ -1,0 +1,15 @@
+
+Function evaluateGrobUnit
+  [PB] has negative depth src/library/grid/src/unit.c:667
+  [UP] attempt to unprotect more items (14) than protected (10), results will be incomplete src/library/grid/src/unit.c:667
+  [UP] attempt to unprotect more items (14) than protected (11), results will be incomplete src/library/grid/src/unit.c:667
+  [UP] attempt to unprotect more items (14) than protected (12), results will be incomplete src/library/grid/src/unit.c:667
+  [UP] attempt to unprotect more items (14) than protected (13), results will be incomplete src/library/grid/src/unit.c:667
+  [UP] attempt to unprotect more items (14) than protected (7), results will be incomplete src/library/grid/src/unit.c:667
+  [UP] attempt to unprotect more items (14) than protected (8), results will be incomplete src/library/grid/src/unit.c:667
+  [UP] attempt to unprotect more items (14) than protected (9), results will be incomplete src/library/grid/src/unit.c:667
+  [PB] has negative depth src/library/grid/src/unit.c:673
+  [UP] attempt to unprotect more items (10) than protected (7), results will be incomplete src/library/grid/src/unit.c:673
+  [UP] attempt to unprotect more items (10) than protected (8), results will be incomplete src/library/grid/src/unit.c:673
+  [UP] attempt to unprotect more items (10) than protected (9), results will be incomplete src/library/grid/src/unit.c:673
+  [PB] has possible protection stack imbalance src/library/grid/src/unit.c:683
