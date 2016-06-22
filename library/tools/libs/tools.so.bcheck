@@ -4,8 +4,8 @@ Function ParseLatex
   [PB] has possible protection stack imbalance src/library/tools/src/gramLatex.c:2332
 
 Function ParseRd
-  [PB] has negative depth src/library/tools/src/gramRd.c:3569
-  [PB] has possible protection stack imbalance src/library/tools/src/gramRd.c:3573
+  [PB] has negative depth src/library/tools/src/gramRd.c:3571
+  [PB] has possible protection stack imbalance src/library/tools/src/gramRd.c:3575
 
 Function Rf_yyparse
   [UP] allocating function setId may destroy its unprotected argument (yyval), which is later used. src/main/gram.c:2174
@@ -73,34 +73,34 @@ Function Rf_yyparse113
   [PB] has possible protection stack imbalance src/library/tools/src/gramRd.c:2959
 
 Function mkCode
-  [PB] has possible protection stack imbalance src/library/tools/src/gramRd.c:4182
+  [PB] has possible protection stack imbalance src/library/tools/src/gramRd.c:4184
 
 Function mkComment
   [PB] has possible protection stack imbalance src/library/tools/src/gramLatex.c:2600
 
 Function mkComment133
-  [PB] has possible protection stack imbalance src/library/tools/src/gramRd.c:4080
+  [PB] has possible protection stack imbalance src/library/tools/src/gramRd.c:4082
 
 Function mkIfdef
-  [PB] has possible protection stack imbalance src/library/tools/src/gramRd.c:4265
+  [PB] has possible protection stack imbalance src/library/tools/src/gramRd.c:4267
 
 Function mkMarkup
   [PB] has possible protection stack imbalance src/library/tools/src/gramLatex.c:2630
 
 Function mkMarkup132
-  [PB] has possible protection stack imbalance src/library/tools/src/gramRd.c:4222
+  [PB] has possible protection stack imbalance src/library/tools/src/gramRd.c:4224
 
 Function mkText
   [PB] has possible protection stack imbalance src/library/tools/src/gramLatex.c:2583
 
 Function mkText130
-  [PB] has possible protection stack imbalance src/library/tools/src/gramRd.c:4064
+  [PB] has possible protection stack imbalance src/library/tools/src/gramRd.c:4066
 
 Function mkVerb
   [PB] has possible protection stack imbalance src/library/tools/src/gramLatex.c:2647
 
 Function mkVerb128
-  [PB] has possible protection stack imbalance src/library/tools/src/gramRd.c:4304
+  [PB] has possible protection stack imbalance src/library/tools/src/gramRd.c:4306
 
 Function mkVerbEnv
   [PB] has negative depth src/library/tools/src/gramLatex.c:2668
@@ -110,11 +110,11 @@ Function token
   [PB] has possible protection stack imbalance src/library/tools/src/gramLatex.c:2556
 
 Function token127
-  [PB] has possible protection stack imbalance src/library/tools/src/gramRd.c:4026
+  [PB] has possible protection stack imbalance src/library/tools/src/gramRd.c:4028
 
 Function xxOptionmarkup
-  [PB] has negative depth src/library/tools/src/gramRd.c:3237
-  [PB] has possible protection stack imbalance src/library/tools/src/gramRd.c:3246
+  [PB] has negative depth src/library/tools/src/gramRd.c:3239
+  [PB] has possible protection stack imbalance src/library/tools/src/gramRd.c:3248
 
 Function xxSetInVerbEnv
   [PB] has possible protection stack imbalance src/library/tools/src/gramLatex.c:2120
@@ -140,15 +140,15 @@ Function xxmarkup
   [PB] has possible protection stack imbalance src/library/tools/src/gramRd.c:3129
 
 Function xxmarkup2
-  [PB] has negative depth src/library/tools/src/gramRd.c:3269
-  [PB] has negative depth src/library/tools/src/gramRd.c:3274
-  [PB] has possible protection stack imbalance src/library/tools/src/gramRd.c:3280
+  [PB] has negative depth src/library/tools/src/gramRd.c:3271
+  [PB] has negative depth src/library/tools/src/gramRd.c:3276
+  [PB] has possible protection stack imbalance src/library/tools/src/gramRd.c:3282
 
 Function xxmarkup3
-  [PB] has negative depth src/library/tools/src/gramRd.c:3302
-  [PB] has negative depth src/library/tools/src/gramRd.c:3310
-  [PB] has negative depth src/library/tools/src/gramRd.c:3315
-  [PB] has possible protection stack imbalance src/library/tools/src/gramRd.c:3321
+  [PB] has negative depth src/library/tools/src/gramRd.c:3304
+  [PB] has negative depth src/library/tools/src/gramRd.c:3312
+  [PB] has negative depth src/library/tools/src/gramRd.c:3317
+  [PB] has possible protection stack imbalance src/library/tools/src/gramRd.c:3323
 
 Function xxnewcommand
   [PB] has negative depth src/library/tools/src/gramRd.c:3171
@@ -171,8 +171,8 @@ Function xxsavevalue
   [PB] has possible protection stack imbalance src/library/tools/src/gramLatex.c:2137
 
 Function xxusermacro
-  [PB] has negative depth src/library/tools/src/gramRd.c:3202
-  [PB] has possible protection stack imbalance src/library/tools/src/gramRd.c:3224
+  [PB] has negative depth src/library/tools/src/gramRd.c:3222
+  [PB] has possible protection stack imbalance src/library/tools/src/gramRd.c:3226
 
 Function yydestruct
   [PB] has negative depth src/library/tools/src/gramLatex.c:1328

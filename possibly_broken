@@ -1,3 +1,24 @@
+Many changes between versions 70405 and 70470, the last one is:
+  ------------------------------------------------------------------------
+  r70470 | maechler | 2016-04-12 17:41:39 +0000 (Tue, 12 Apr 2016) | 1 line
+  
+  \link: forgot to commit
+  ------------------------------------------------------------------------
+and the first one is:
+  ------------------------------------------------------------------------
+  r70405 | lawrence | 2016-03-31 22:43:51 +0000 (Thu, 31 Mar 2016) | 4 lines
+  
+  add signature argument to debug() and friends for debugging methods;
+  add utils::debugcall() for debugging a function/method that would be
+  dispatched by evaluating the call.
+  
+  ------------------------------------------------------------------------
+
+Possibly introduced errors between versions 70405 and 70470:
+  src/library/tools/src/gramRd.c:3222
+    [PB] has negative depth
+
+
 Many changes between versions 70234 and 70252, the last one is:
   ------------------------------------------------------------------------
   r70252 | ripley | 2016-03-01 08:20:31 +0000 (Tue, 01 Mar 2016) | 1 line

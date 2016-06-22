@@ -281,7 +281,7 @@ Function do_seq_along
 
 Function do_sprintf
   [UP] protect stack is too deep, unprotecting all variables, results will be incomplete
-  [UP] unsupported form of unprotect, unprotecting all variables, results will be incomplete src/main/sprintf.c:454
+  [UP] unsupported form of unprotect, unprotecting all variables, results will be incomplete src/main/sprintf.c:456
 
 Function do_strsplit
   [UP] unprotected variable tok while calling allocating function Rf_allocVector src/main/grep.c:202
