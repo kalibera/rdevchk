@@ -1,3 +1,21 @@
+Many changes between versions 70234 and 70252, the last one is:
+  ------------------------------------------------------------------------
+  r70252 | ripley | 2016-03-01 08:20:31 +0000 (Tue, 01 Mar 2016) | 1 line
+  
+  uncomment references to omegahat.net
+  ------------------------------------------------------------------------
+and the first one is:
+  ------------------------------------------------------------------------
+  r70234 | maechler | 2016-02-27 13:09:40 +0000 (Sat, 27 Feb 2016) | 1 line
+  
+  [dpqr]nbinom(*, size = Inf, mu) giving non-NaN
+  ------------------------------------------------------------------------
+
+Possibly introduced errors between versions 70234 and 70252:
+  src/library/stats/src/model.c:1423
+    [UP] allocating function TrimRepeats may destroy its unprotected argument (term), which is later used.
+
+
 Many changes between versions 69895 and 70052, the last one is:
   ------------------------------------------------------------------------
   r70052 | maechler | 2016-01-30 16:46:26 +0000 (Sat, 30 Jan 2016) | 1 line

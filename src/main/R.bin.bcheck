@@ -383,14 +383,14 @@ Function setParseFilename
   [PB] has possible protection stack imbalance src/main/gram.c:5013
 
 Function vec2buff
-  [UP] unprotected variable nv while calling allocating function linebreak src/main/deparse.c:1555
-  [UP] unprotected variable nv while calling allocating function Rf_isValidName src/main/deparse.c:1559
-  [UP] unprotected variable nv while calling allocating function Rf_translateChar src/main/deparse.c:1559
-  [UP] unprotected variable nv while calling allocating function deparse2buff src/main/deparse.c:1560
-  [UP] unprotected variable nv while calling allocating function deparse2buff src/main/deparse.c:1563
-  [UP] unprotected variable nv while calling allocating function deparse2buff src/main/deparse.c:1567
-  [UP] unprotected variable nv while calling allocating function src2buff src/main/deparse.c:1573
-  [UP] unprotected variable nv while calling allocating function deparse2buff src/main/deparse.c:1574
+  [UP] unprotected variable nv while calling allocating function linebreak src/main/deparse.c:1560
+  [UP] unprotected variable nv while calling allocating function Rf_isValidName src/main/deparse.c:1564
+  [UP] unprotected variable nv while calling allocating function Rf_translateChar src/main/deparse.c:1564
+  [UP] unprotected variable nv while calling allocating function deparse2buff src/main/deparse.c:1565
+  [UP] unprotected variable nv while calling allocating function deparse2buff src/main/deparse.c:1568
+  [UP] unprotected variable nv while calling allocating function deparse2buff src/main/deparse.c:1572
+  [UP] unprotected variable nv while calling allocating function src2buff src/main/deparse.c:1578
+  [UP] unprotected variable nv while calling allocating function deparse2buff src/main/deparse.c:1579
 
 Function xxaddformal0
   [PB] has negative depth src/main/gram.c:2992
