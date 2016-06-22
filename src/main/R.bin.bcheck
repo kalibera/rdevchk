@@ -4,10 +4,10 @@ Function CONS_NR
   [UP] unprotected variable cdr while calling allocating function GetNewPage src/main/memory.c:2267
 
 Function DeleteListElements
-  [UP] unprotected variable xnames while calling allocating function Rf_allocVector src/main/subassign.c:439
+  [UP] unprotected variable xnames while calling allocating function Rf_allocVector src/main/subassign.c:462
 
 Function DeleteOneVectorListItem
-  [UP] unprotected variable xnames while calling allocating function Rf_allocVector src/main/subassign.c:1572
+  [UP] unprotected variable xnames while calling allocating function Rf_allocVector src/main/subassign.c:1595
 
 Function HashAdd
   [UP] unprotected variable val while calling allocating function Rf_cons src/main/saveload.c:865
@@ -19,10 +19,10 @@ Function NumericValue
   [PB] has possible protection stack imbalance src/main/gram.c:4533
 
 Function R_DispatchOrEvalSP
-  [UP] unprotected variable prom while calling allocating function Rf_DispatchOrEval src/main/subassign.c:1440
+  [UP] unprotected variable prom while calling allocating function Rf_DispatchOrEval src/main/subassign.c:1463
 
-Function R_DispatchOrEvalSP5363
-  [UP] unprotected variable prom while calling allocating function Rf_DispatchOrEval src/main/subset.c:634
+Function R_DispatchOrEvalSP5365
+  [UP] unprotected variable prom while calling allocating function Rf_DispatchOrEval src/main/subset.c:636
 
 Function R_FinalizeSrcRefState
   [PB] has negative depth src/main/gram.c:3539
@@ -40,13 +40,13 @@ Function R_restore_globals
   [UP] manipulates PPStackTop directly, results will be incomplete src/main/context.c:170
 
 Function R_subassign3_dflt
-  [UP] unprotected variable names while calling allocating function Rf_xlength src/main/subassign.c:2068
-  [UP] unprotected variable names while calling allocating function Rf_NonNullStringMatch src/main/subassign.c:2077
-  [UP] unprotected variable names while calling allocating function Rf_allocVector src/main/subassign.c:2084
-  [UP] unprotected variable names while calling allocating function Rf_allocVector src/main/subassign.c:2085
-  [UP] unprotected variable names while calling allocating function Rf_NonNullStringMatch src/main/subassign.c:2107
-  [UP] unprotected variable names while calling allocating function Rf_allocVector src/main/subassign.c:2123
-  [UP] unprotected variable names while calling allocating function Rf_allocVector src/main/subassign.c:2124
+  [UP] unprotected variable names while calling allocating function Rf_xlength src/main/subassign.c:2091
+  [UP] unprotected variable names while calling allocating function Rf_NonNullStringMatch src/main/subassign.c:2100
+  [UP] unprotected variable names while calling allocating function Rf_allocVector src/main/subassign.c:2107
+  [UP] unprotected variable names while calling allocating function Rf_allocVector src/main/subassign.c:2108
+  [UP] unprotected variable names while calling allocating function Rf_NonNullStringMatch src/main/subassign.c:2130
+  [UP] unprotected variable names while calling allocating function Rf_allocVector src/main/subassign.c:2146
+  [UP] unprotected variable names while calling allocating function Rf_allocVector src/main/subassign.c:2147
 
 Function R_tryEval
   [PB] has negative depth src/main/context.c:762
