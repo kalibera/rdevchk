@@ -62,7 +62,7 @@ Function Rf_yyparse
   [UP] allocating function setId may destroy its unprotected argument (yyval), which is later used. src/main/gram.c:2439
   [UP] allocating function setId may destroy its unprotected argument (yyval), which is later used. src/main/gram.c:2444
 
-Function Rf_yyparse112
+Function Rf_yyparse113
   [PB] has negative depth src/library/tools/src/gramRd.c:2279
   [PB] has negative depth src/library/tools/src/gramRd.c:2284
   [PB] has negative depth src/library/tools/src/gramRd.c:2294
@@ -78,7 +78,7 @@ Function mkCode
 Function mkComment
   [PB] has possible protection stack imbalance src/library/tools/src/gramLatex.c:2600
 
-Function mkComment132
+Function mkComment133
   [PB] has possible protection stack imbalance src/library/tools/src/gramRd.c:4080
 
 Function mkIfdef
@@ -87,19 +87,19 @@ Function mkIfdef
 Function mkMarkup
   [PB] has possible protection stack imbalance src/library/tools/src/gramLatex.c:2630
 
-Function mkMarkup131
+Function mkMarkup132
   [PB] has possible protection stack imbalance src/library/tools/src/gramRd.c:4222
 
 Function mkText
   [PB] has possible protection stack imbalance src/library/tools/src/gramLatex.c:2583
 
-Function mkText129
+Function mkText130
   [PB] has possible protection stack imbalance src/library/tools/src/gramRd.c:4064
 
 Function mkVerb
   [PB] has possible protection stack imbalance src/library/tools/src/gramLatex.c:2647
 
-Function mkVerb127
+Function mkVerb128
   [PB] has possible protection stack imbalance src/library/tools/src/gramRd.c:4304
 
 Function mkVerbEnv
@@ -109,7 +109,7 @@ Function mkVerbEnv
 Function token
   [PB] has possible protection stack imbalance src/library/tools/src/gramLatex.c:2556
 
-Function token126
+Function token127
   [PB] has possible protection stack imbalance src/library/tools/src/gramRd.c:4026
 
 Function xxOptionmarkup
@@ -131,7 +131,7 @@ Function xxlist
   [PB] has negative depth src/library/tools/src/gramLatex.c:2032
   [PB] has possible protection stack imbalance src/library/tools/src/gramLatex.c:2036
 
-Function xxlist119
+Function xxlist120
   [PB] has negative depth src/library/tools/src/gramRd.c:3098
   [PB] has possible protection stack imbalance src/library/tools/src/gramRd.c:3103
 
@@ -157,7 +157,7 @@ Function xxnewcommand
 Function xxnewlist
   [PB] has possible protection stack imbalance src/library/tools/src/gramLatex.c:2021
 
-Function xxnewlist121
+Function xxnewlist122
   [PB] has possible protection stack imbalance src/library/tools/src/gramRd.c:3041
 
 Function xxpopMode
@@ -182,7 +182,7 @@ Function yydestruct
   [PB] has negative depth src/library/tools/src/gramLatex.c:1348
   [PB] has possible protection stack imbalance src/library/tools/src/gramLatex.c:1355
 
-Function yydestruct113
+Function yydestruct114
   [PB] has negative depth src/library/tools/src/gramRd.c:1697
   [PB] has negative depth src/library/tools/src/gramRd.c:1702
   [PB] has negative depth src/library/tools/src/gramRd.c:1707
