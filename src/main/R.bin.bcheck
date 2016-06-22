@@ -1,13 +1,13 @@
 
 Function CONS_NR
-  [UP] unprotected variable car while calling allocating function GetNewPage src/main/memory.c:2266
-  [UP] unprotected variable cdr while calling allocating function GetNewPage src/main/memory.c:2266
+  [UP] unprotected variable car while calling allocating function GetNewPage src/main/memory.c:2267
+  [UP] unprotected variable cdr while calling allocating function GetNewPage src/main/memory.c:2267
 
 Function DeleteListElements
   [UP] unprotected variable xnames while calling allocating function Rf_allocVector src/main/subassign.c:439
 
 Function DeleteOneVectorListItem
-  [UP] unprotected variable xnames while calling allocating function Rf_allocVector src/main/subassign.c:1549
+  [UP] unprotected variable xnames while calling allocating function Rf_allocVector src/main/subassign.c:1572
 
 Function HashAdd
   [UP] unprotected variable val while calling allocating function Rf_cons src/main/saveload.c:865
@@ -19,9 +19,9 @@ Function NumericValue
   [PB] has possible protection stack imbalance src/main/gram.c:4533
 
 Function R_DispatchOrEvalSP
-  [UP] unprotected variable prom while calling allocating function Rf_DispatchOrEval src/main/subassign.c:1417
+  [UP] unprotected variable prom while calling allocating function Rf_DispatchOrEval src/main/subassign.c:1440
 
-Function R_DispatchOrEvalSP5360
+Function R_DispatchOrEvalSP5359
   [UP] unprotected variable prom while calling allocating function Rf_DispatchOrEval src/main/subset.c:634
 
 Function R_FinalizeSrcRefState
@@ -40,18 +40,18 @@ Function R_restore_globals
   [UP] manipulates PPStackTop directly, results will be incomplete src/main/context.c:170
 
 Function R_subassign3_dflt
-  [UP] unprotected variable names while calling allocating function Rf_xlength src/main/subassign.c:2045
-  [UP] unprotected variable names while calling allocating function Rf_NonNullStringMatch src/main/subassign.c:2054
-  [UP] unprotected variable names while calling allocating function Rf_allocVector src/main/subassign.c:2061
-  [UP] unprotected variable names while calling allocating function Rf_allocVector src/main/subassign.c:2062
-  [UP] unprotected variable names while calling allocating function Rf_NonNullStringMatch src/main/subassign.c:2084
-  [UP] unprotected variable names while calling allocating function Rf_allocVector src/main/subassign.c:2100
-  [UP] unprotected variable names while calling allocating function Rf_allocVector src/main/subassign.c:2101
+  [UP] unprotected variable names while calling allocating function Rf_xlength src/main/subassign.c:2068
+  [UP] unprotected variable names while calling allocating function Rf_NonNullStringMatch src/main/subassign.c:2077
+  [UP] unprotected variable names while calling allocating function Rf_allocVector src/main/subassign.c:2084
+  [UP] unprotected variable names while calling allocating function Rf_allocVector src/main/subassign.c:2085
+  [UP] unprotected variable names while calling allocating function Rf_NonNullStringMatch src/main/subassign.c:2107
+  [UP] unprotected variable names while calling allocating function Rf_allocVector src/main/subassign.c:2123
+  [UP] unprotected variable names while calling allocating function Rf_allocVector src/main/subassign.c:2124
 
 Function R_tryEval
-  [PB] has negative depth src/main/context.c:788
-  [UP] attempt to unprotect more items (1) than protected (0), results will be incomplete src/main/context.c:788
-  [PB] has possible protection stack imbalance src/main/context.c:790
+  [PB] has negative depth src/main/context.c:762
+  [UP] attempt to unprotect more items (1) than protected (0), results will be incomplete src/main/context.c:762
+  [PB] has possible protection stack imbalance src/main/context.c:764
 
 Function Rf_DispatchGroup
   [UP] ignoring variable lgr as it has address taken, results will be incomplete 
@@ -62,28 +62,28 @@ Function Rf_DispatchGroup
   [UP] ignoring variable rsxp as it has address taken, results will be incomplete 
 
 Function Rf_InitMemory
-  [PB] manipulates PPStackTop directly results will be incomplete src/main/memory.c:2009
-  [UP] manipulates PPStackTop directly, results will be incomplete src/main/memory.c:2009
+  [PB] manipulates PPStackTop directly results will be incomplete src/main/memory.c:2010
+  [UP] manipulates PPStackTop directly, results will be incomplete src/main/memory.c:2010
 
 Function Rf_InitTypeTables
   [UP] unprotected variable rchar while calling allocating function Rf_install src/main/util.c:273
 
 Function Rf_NewEnvironment
-  [UP] unprotected variable namelist while calling allocating function GetNewPage src/main/memory.c:2309
-  [UP] unprotected variable rho while calling allocating function GetNewPage src/main/memory.c:2309
-  [UP] unprotected variable valuelist while calling allocating function GetNewPage src/main/memory.c:2309
+  [UP] unprotected variable namelist while calling allocating function GetNewPage src/main/memory.c:2310
+  [UP] unprotected variable rho while calling allocating function GetNewPage src/main/memory.c:2310
+  [UP] unprotected variable valuelist while calling allocating function GetNewPage src/main/memory.c:2310
 
 Function Rf_ReplIteration
   [PB] manipulates PPStackTop directly results will be incomplete src/main/main.c:223
   [UP] manipulates PPStackTop directly, results will be incomplete src/main/main.c:223
 
 Function Rf_cons
-  [UP] unprotected variable car while calling allocating function GetNewPage src/main/memory.c:2244
-  [UP] unprotected variable cdr while calling allocating function GetNewPage src/main/memory.c:2244
+  [UP] unprotected variable car while calling allocating function GetNewPage src/main/memory.c:2245
+  [UP] unprotected variable cdr while calling allocating function GetNewPage src/main/memory.c:2245
 
 Function Rf_initStack
-  [PB] manipulates PPStackTop directly results will be incomplete src/main/memory.c:3172
-  [UP] manipulates PPStackTop directly, results will be incomplete src/main/memory.c:3172
+  [PB] manipulates PPStackTop directly results will be incomplete src/main/memory.c:3178
+  [UP] manipulates PPStackTop directly, results will be incomplete src/main/memory.c:3178
 
 Function Rf_matchArgs
   [PB] has too high protection stack depth results will be incomplete
@@ -91,11 +91,11 @@ Function Rf_matchArgs
   [PB] has possible protection stack imbalance src/main/match.c:388
 
 Function Rf_mkPROMISE
-  [UP] unprotected variable expr while calling allocating function GetNewPage src/main/memory.c:2341
-  [UP] unprotected variable rho while calling allocating function GetNewPage src/main/memory.c:2341
+  [UP] unprotected variable expr while calling allocating function GetNewPage src/main/memory.c:2342
+  [UP] unprotected variable rho while calling allocating function GetNewPage src/main/memory.c:2342
 
 Function Rf_vectorIndex
-  [UP] allocating function Rf_xlength may destroy its unprotected argument (x <arg 1>), which is later used. src/main/subscript.c:319
+  [UP] allocating function Rf_xlength may destroy its unprotected argument (x <arg 1>), which is later used. src/main/subscript.c:312
 
 Function Rf_yyparse
   [UP] allocating function setId may destroy its unprotected argument (yyval), which is later used. src/main/gram.c:2174
@@ -153,7 +153,7 @@ Function Rf_yyparse
   [UP] allocating function setId may destroy its unprotected argument (yyval), which is later used. src/main/gram.c:2444
 
 Function RunFinalizers
-  [UP] unprotected variable next while calling allocating function Rf_endcontext src/main/memory.c:1415
+  [UP] unprotected variable next while calling allocating function Rf_endcontext src/main/memory.c:1416
 
 Function StringValue
   [PB] has possible protection stack imbalance src/main/gram.c:4894
@@ -162,7 +162,7 @@ Function SymbolValue
   [PB] has possible protection stack imbalance src/main/gram.c:4990
 
 Function applydefine
-  [UP] unprotected variable saverhs while calling allocating function Rf_endcontext src/main/eval.c:2065
+  [UP] unprotected variable saverhs while calling allocating function Rf_endcontext src/main/eval.c:2066
 
 Function bcEval
   [UP] ignoring variable sa as it has address taken, results will be incomplete 
@@ -179,23 +179,23 @@ Function bcEval
   [UP] ignoring variable sb205 as it has address taken, results will be incomplete 
   [UP] ignoring variable sb228 as it has address taken, results will be incomplete 
   [UP] ignoring variable sb250 as it has address taken, results will be incomplete 
-  [UP] unprotected variable __cell__ while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5424
-  [UP] unprotected variable __cell__100 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5432
-  [UP] unprotected variable __cell__107 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5456
-  [UP] unprotected variable __cell__112 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5466
-  [UP] unprotected variable __cell__115 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5472
-  [UP] unprotected variable __cell__118 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5474
-  [UP] unprotected variable __cell__121 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5475
-  [UP] unprotected variable __cell__124 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5476
-  [UP] unprotected variable __cell__397 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5627
-  [UP] unprotected variable __cell__418 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5629
-  [UP] unprotected variable __cell__426 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5631
-  [UP] unprotected variable __cell__442 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5632
-  [UP] unprotected variable __cell__462 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5634
-  [UP] unprotected variable __cell__485 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5636
-  [UP] unprotected variable __cell__493 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5638
-  [UP] unprotected variable __cell__579 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5807
-  [UP] unprotected variable __cell__583 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5836
+  [UP] unprotected variable __cell__ while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5425
+  [UP] unprotected variable __cell__100 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5433
+  [UP] unprotected variable __cell__107 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5457
+  [UP] unprotected variable __cell__112 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5467
+  [UP] unprotected variable __cell__115 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5473
+  [UP] unprotected variable __cell__118 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5475
+  [UP] unprotected variable __cell__121 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5476
+  [UP] unprotected variable __cell__124 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5477
+  [UP] unprotected variable __cell__397 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5628
+  [UP] unprotected variable __cell__418 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5630
+  [UP] unprotected variable __cell__426 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5632
+  [UP] unprotected variable __cell__442 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5633
+  [UP] unprotected variable __cell__462 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5635
+  [UP] unprotected variable __cell__485 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5637
+  [UP] unprotected variable __cell__493 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5639
+  [UP] unprotected variable __cell__579 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5808
+  [UP] unprotected variable __cell__583 while calling allocating function GETSTACK_PTR_TAG src/main/eval.c:5837
 
 Function do_Math2
   [UP] ignoring variable res as it has address taken, results will be incomplete 
@@ -210,14 +210,14 @@ Function do_asvector
   [UP] ignoring variable ans as it has address taken, results will be incomplete 
 
 Function do_attributesgets
-  [UP] unprotected variable names while calling allocating function Rf_allocVector src/main/attrib.c:1303
-  [UP] unprotected variable names while calling allocating function Rf_shallow_duplicate src/main/attrib.c:1310
-  [UP] unprotected variable names while calling allocating function Rf_setAttrib(?,S:names,?) src/main/attrib.c:1324
-  [UP] unprotected variable names while calling allocating function Rf_setAttrib(?,S:dim,?) src/main/attrib.c:1341
-  [UP] unprotected variable names while calling allocating function Rf_setAttrib(V,S:dim,?) src/main/attrib.c:1341
-  [UP] unprotected variable names while calling allocating function Rf_installTrChar src/main/attrib.c:1347
-  [UP] unprotected variable names while calling allocating function Rf_setAttrib src/main/attrib.c:1347
-  [UP] unprotected variable names while calling allocating function Rf_setAttrib(V,?,?) src/main/attrib.c:1347
+  [UP] unprotected variable names while calling allocating function Rf_allocVector src/main/attrib.c:1302
+  [UP] unprotected variable names while calling allocating function Rf_shallow_duplicate src/main/attrib.c:1309
+  [UP] unprotected variable names while calling allocating function Rf_setAttrib(?,S:names,?) src/main/attrib.c:1323
+  [UP] unprotected variable names while calling allocating function Rf_setAttrib(?,S:dim,?) src/main/attrib.c:1340
+  [UP] unprotected variable names while calling allocating function Rf_setAttrib(V,S:dim,?) src/main/attrib.c:1340
+  [UP] unprotected variable names while calling allocating function Rf_installTrChar src/main/attrib.c:1346
+  [UP] unprotected variable names while calling allocating function Rf_setAttrib src/main/attrib.c:1346
+  [UP] unprotected variable names while calling allocating function Rf_setAttrib(V,?,?) src/main/attrib.c:1346
 
 Function do_cum
   [UP] ignoring variable ans as it has address taken, results will be incomplete 
@@ -373,7 +373,7 @@ Function do_xtfrm
   [UP] ignoring variable ans as it has address taken, results will be incomplete 
 
 Function protectedEval
-  [PB] has possible protection stack imbalance src/main/context.c:769
+  [PB] has possible protection stack imbalance src/main/context.c:743
 
 Function setParseFilename
   [PB] has negative depth src/main/gram.c:5012
